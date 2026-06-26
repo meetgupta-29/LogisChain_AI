@@ -1,0 +1,1001 @@
+Shipment_ID,Supplier,Origin,Destination,Carrier,Distance_km,Weather,Shipment_Date,Expected_Delivery,Actual_Delivery,Delay_Days,Risk_Level
+SHP0001,HP,Mumbai,Bengaluru,FedEx,1799,Storm,2026-06-19,2026-06-24,2026-06-24,0,Medium
+SHP0002,HP,Hyderabad,Ahmedabad,Delhivery,315,Fog,2026-02-24,2026-02-27,2026-02-28,1,Low
+SHP0003,Apple,Chennai,Jaipur,Delhivery,389,Rain,2026-02-05,2026-02-08,2026-02-08,0,High
+SHP0004,Apple,Mumbai,Lucknow,DHL,565,Storm,2026-04-29,2026-05-06,2026-05-09,3,Low
+SHP0005,HP,Chennai,Pune,Delhivery,2091,Fog,2026-04-29,2026-05-06,2026-05-07,1,High
+SHP0006,LG,Hyderabad,Jaipur,DHL,2406,Clear,2026-06-03,2026-06-07,2026-06-08,1,Medium
+SHP0007,LG,Kolkata,Pune,UPS,333,Rain,2026-02-25,2026-03-03,2026-03-06,3,Low
+SHP0008,Lenovo,Chennai,Pune,Blue Dart,862,Clear,2026-06-09,2026-06-15,2026-06-20,5,Low
+SHP0009,Samsung,Delhi,Lucknow,DHL,662,Rain,2026-05-05,2026-05-09,2026-05-11,2,Low
+SHP0010,HP,Delhi,Lucknow,FedEx,556,Fog,2026-04-16,2026-04-21,2026-04-26,5,Medium
+SHP0011,Asus,Chennai,Ahmedabad,Blue Dart,533,Clear,2026-04-25,2026-04-29,2026-05-03,4,Low
+SHP0012,Samsung,Hyderabad,Bengaluru,DHL,2388,Clear,2026-03-16,2026-03-19,2026-03-21,2,Medium
+SHP0013,Apple,Delhi,Lucknow,UPS,575,Storm,2026-06-15,2026-06-20,2026-06-22,2,Low
+SHP0014,HP,Kolkata,Lucknow,FedEx,1332,Clear,2026-05-10,2026-05-16,2026-05-17,1,Low
+SHP0015,Samsung,Hyderabad,Bengaluru,Blue Dart,955,Clear,2026-02-21,2026-02-27,2026-02-27,0,High
+SHP0016,Apple,Delhi,Lucknow,FedEx,1149,Rain,2026-01-31,2026-02-02,2026-02-04,2,Medium
+SHP0017,Asus,Chennai,Lucknow,Delhivery,433,Storm,2026-03-10,2026-03-16,2026-03-20,4,Low
+SHP0018,Apple,Hyderabad,Lucknow,Delhivery,1008,Fog,2026-03-18,2026-03-20,2026-03-21,1,Low
+SHP0019,Dell,Kolkata,Pune,UPS,1402,Clear,2026-01-17,2026-01-21,2026-01-25,4,High
+SHP0020,Samsung,Delhi,Jaipur,Delhivery,904,Clear,2026-05-20,2026-05-24,2026-05-27,3,High
+SHP0021,Apple,Chennai,Ahmedabad,DHL,1113,Storm,2026-03-11,2026-03-15,2026-03-18,3,Low
+SHP0022,Apple,Hyderabad,Pune,DHL,399,Storm,2026-03-04,2026-03-10,2026-03-13,3,High
+SHP0023,Sony,Hyderabad,Jaipur,UPS,1737,Rain,2026-05-09,2026-05-15,2026-05-18,3,Low
+SHP0024,Samsung,Hyderabad,Bengaluru,DHL,2300,Rain,2026-02-15,2026-02-20,2026-02-23,3,Low
+SHP0025,LG,Chennai,Jaipur,FedEx,1781,Rain,2026-04-07,2026-04-09,2026-04-14,5,Medium
+SHP0026,Sony,Chennai,Jaipur,UPS,1816,Storm,2026-02-15,2026-02-19,2026-02-21,2,High
+SHP0027,LG,Kolkata,Lucknow,UPS,945,Storm,2026-04-25,2026-05-02,2026-05-06,4,Low
+SHP0028,LG,Chennai,Jaipur,UPS,1673,Fog,2026-04-25,2026-04-29,2026-05-02,3,High
+SHP0029,Samsung,Mumbai,Pune,FedEx,2363,Rain,2026-03-29,2026-04-04,2026-04-05,1,High
+SHP0030,Samsung,Kolkata,Bengaluru,Blue Dart,1193,Clear,2026-03-05,2026-03-08,2026-03-13,5,High
+SHP0031,Asus,Hyderabad,Lucknow,Delhivery,2394,Clear,2026-03-21,2026-03-25,2026-03-30,5,Low
+SHP0032,Lenovo,Kolkata,Pune,DHL,2130,Fog,2026-03-05,2026-03-11,2026-03-16,5,Low
+SHP0033,HP,Mumbai,Pune,FedEx,1399,Clear,2026-06-27,2026-07-02,2026-07-02,0,High
+SHP0034,Samsung,Mumbai,Bengaluru,Delhivery,1404,Storm,2026-02-13,2026-02-16,2026-02-16,0,High
+SHP0035,Dell,Mumbai,Lucknow,Delhivery,556,Fog,2026-05-13,2026-05-15,2026-05-17,2,Medium
+SHP0036,HP,Hyderabad,Jaipur,Blue Dart,1406,Fog,2026-01-29,2026-02-02,2026-02-06,4,Low
+SHP0037,Asus,Hyderabad,Pune,UPS,469,Rain,2026-03-14,2026-03-18,2026-03-21,3,High
+SHP0038,Lenovo,Delhi,Lucknow,Delhivery,2385,Clear,2026-05-27,2026-06-02,2026-06-04,2,Medium
+SHP0039,Samsung,Mumbai,Jaipur,UPS,214,Rain,2026-03-31,2026-04-02,2026-04-04,2,Low
+SHP0040,Sony,Kolkata,Jaipur,Blue Dart,2391,Fog,2026-02-20,2026-02-26,2026-02-26,0,High
+SHP0041,Asus,Delhi,Pune,FedEx,586,Storm,2026-01-01,2026-01-08,2026-01-10,2,Low
+SHP0042,Lenovo,Delhi,Lucknow,DHL,2098,Storm,2026-05-22,2026-05-27,2026-05-29,2,High
+SHP0043,Asus,Kolkata,Jaipur,Delhivery,2405,Storm,2026-04-25,2026-04-28,2026-05-01,3,Medium
+SHP0044,Apple,Kolkata,Pune,DHL,2029,Storm,2026-03-14,2026-03-20,2026-03-21,1,Medium
+SHP0045,Lenovo,Delhi,Lucknow,UPS,746,Storm,2026-03-29,2026-03-31,2026-04-02,2,Medium
+SHP0046,HP,Chennai,Bengaluru,FedEx,259,Clear,2026-03-28,2026-03-30,2026-04-02,3,High
+SHP0047,HP,Delhi,Ahmedabad,FedEx,855,Storm,2026-01-13,2026-01-17,2026-01-21,4,Medium
+SHP0048,LG,Mumbai,Jaipur,DHL,583,Rain,2026-03-04,2026-03-06,2026-03-08,2,Medium
+SHP0049,HP,Hyderabad,Lucknow,Delhivery,2298,Storm,2026-01-20,2026-01-27,2026-01-27,0,Low
+SHP0050,HP,Delhi,Ahmedabad,Blue Dart,899,Storm,2026-01-17,2026-01-22,2026-01-23,1,Medium
+SHP0051,Sony,Kolkata,Jaipur,Blue Dart,1287,Rain,2026-03-07,2026-03-09,2026-03-11,2,High
+SHP0052,HP,Kolkata,Pune,Blue Dart,1711,Clear,2026-05-23,2026-05-28,2026-06-02,5,Low
+SHP0053,Lenovo,Chennai,Jaipur,DHL,1507,Storm,2026-04-21,2026-04-27,2026-04-27,0,High
+SHP0054,HP,Hyderabad,Pune,Delhivery,399,Storm,2026-01-05,2026-01-07,2026-01-09,2,High
+SHP0055,Sony,Kolkata,Lucknow,DHL,1208,Clear,2026-03-25,2026-04-01,2026-04-03,2,Low
+SHP0056,Asus,Kolkata,Pune,UPS,354,Storm,2026-03-06,2026-03-11,2026-03-11,0,Medium
+SHP0057,Lenovo,Mumbai,Bengaluru,DHL,1609,Clear,2026-06-07,2026-06-11,2026-06-16,5,High
+SHP0058,Asus,Kolkata,Ahmedabad,Blue Dart,1258,Clear,2026-02-22,2026-02-24,2026-02-26,2,Medium
+SHP0059,Asus,Hyderabad,Jaipur,DHL,1440,Storm,2026-04-22,2026-04-28,2026-05-01,3,Low
+SHP0060,Dell,Delhi,Jaipur,FedEx,1172,Clear,2026-01-11,2026-01-13,2026-01-18,5,High
+SHP0061,HP,Mumbai,Jaipur,Delhivery,1579,Storm,2026-06-16,2026-06-20,2026-06-22,2,Low
+SHP0062,Apple,Mumbai,Jaipur,FedEx,277,Rain,2026-06-19,2026-06-23,2026-06-23,0,Low
+SHP0063,Samsung,Hyderabad,Ahmedabad,Delhivery,470,Storm,2026-02-05,2026-02-07,2026-02-12,5,Medium
+SHP0064,Sony,Kolkata,Bengaluru,UPS,1568,Clear,2026-03-20,2026-03-22,2026-03-22,0,Low
+SHP0065,Sony,Chennai,Ahmedabad,Delhivery,1634,Fog,2026-04-09,2026-04-16,2026-04-20,4,Low
+SHP0066,Asus,Chennai,Bengaluru,FedEx,1722,Rain,2026-04-26,2026-04-30,2026-05-01,1,High
+SHP0067,Asus,Kolkata,Ahmedabad,Blue Dart,1439,Fog,2026-04-03,2026-04-09,2026-04-10,1,Low
+SHP0068,LG,Hyderabad,Ahmedabad,UPS,831,Rain,2026-05-24,2026-05-29,2026-05-30,1,Low
+SHP0069,Sony,Chennai,Ahmedabad,UPS,2018,Clear,2026-01-19,2026-01-26,2026-01-27,1,Medium
+SHP0070,Sony,Chennai,Lucknow,DHL,720,Storm,2026-01-11,2026-01-13,2026-01-18,5,High
+SHP0071,Sony,Delhi,Pune,FedEx,2106,Clear,2026-03-11,2026-03-14,2026-03-19,5,Low
+SHP0072,Dell,Kolkata,Lucknow,DHL,395,Storm,2026-04-16,2026-04-23,2026-04-27,4,High
+SHP0073,Apple,Chennai,Bengaluru,Blue Dart,1393,Storm,2026-03-16,2026-03-19,2026-03-23,4,Low
+SHP0074,Sony,Kolkata,Ahmedabad,Delhivery,498,Fog,2026-02-09,2026-02-12,2026-02-17,5,High
+SHP0075,HP,Kolkata,Bengaluru,Delhivery,1100,Fog,2026-06-29,2026-07-01,2026-07-01,0,High
+SHP0076,LG,Hyderabad,Jaipur,Blue Dart,639,Storm,2026-04-24,2026-05-01,2026-05-01,0,Low
+SHP0077,Lenovo,Mumbai,Jaipur,DHL,228,Storm,2026-06-02,2026-06-05,2026-06-09,4,High
+SHP0078,HP,Hyderabad,Ahmedabad,Delhivery,596,Rain,2026-05-24,2026-05-26,2026-05-27,1,Medium
+SHP0079,HP,Kolkata,Ahmedabad,UPS,430,Rain,2026-03-25,2026-03-27,2026-03-31,4,Medium
+SHP0080,Sony,Kolkata,Jaipur,FedEx,894,Storm,2026-02-14,2026-02-21,2026-02-23,2,High
+SHP0081,Sony,Hyderabad,Jaipur,FedEx,858,Storm,2026-02-14,2026-02-20,2026-02-23,3,Low
+SHP0082,Apple,Kolkata,Jaipur,DHL,1473,Rain,2026-03-01,2026-03-06,2026-03-07,1,Low
+SHP0083,HP,Kolkata,Ahmedabad,FedEx,2255,Storm,2026-06-27,2026-06-30,2026-07-03,3,Low
+SHP0084,Sony,Chennai,Ahmedabad,UPS,1328,Storm,2026-04-08,2026-04-12,2026-04-15,3,Medium
+SHP0085,LG,Hyderabad,Jaipur,Delhivery,2269,Fog,2026-06-19,2026-06-21,2026-06-25,4,High
+SHP0086,Sony,Chennai,Lucknow,Delhivery,545,Storm,2026-03-29,2026-04-03,2026-04-04,1,High
+SHP0087,Dell,Hyderabad,Lucknow,Blue Dart,2342,Rain,2026-03-18,2026-03-23,2026-03-27,4,Medium
+SHP0088,Asus,Delhi,Jaipur,FedEx,1981,Fog,2026-05-13,2026-05-15,2026-05-18,3,Low
+SHP0089,Apple,Hyderabad,Pune,FedEx,2254,Clear,2026-03-06,2026-03-10,2026-03-14,4,Low
+SHP0090,Samsung,Delhi,Lucknow,FedEx,1212,Storm,2026-03-11,2026-03-13,2026-03-14,1,Low
+SHP0091,Dell,Mumbai,Pune,Delhivery,633,Fog,2026-04-22,2026-04-27,2026-05-02,5,Medium
+SHP0092,Dell,Mumbai,Bengaluru,Delhivery,2422,Fog,2026-02-01,2026-02-04,2026-02-05,1,Low
+SHP0093,HP,Hyderabad,Bengaluru,Delhivery,839,Fog,2026-06-28,2026-07-02,2026-07-04,2,High
+SHP0094,LG,Mumbai,Ahmedabad,FedEx,364,Storm,2026-05-08,2026-05-15,2026-05-17,2,High
+SHP0095,HP,Delhi,Jaipur,Blue Dart,123,Storm,2026-03-06,2026-03-08,2026-03-10,2,High
+SHP0096,Apple,Delhi,Ahmedabad,Delhivery,295,Storm,2026-05-31,2026-06-04,2026-06-08,4,Low
+SHP0097,Apple,Mumbai,Bengaluru,Delhivery,1970,Clear,2026-05-26,2026-05-29,2026-06-01,3,High
+SHP0098,Sony,Delhi,Ahmedabad,Delhivery,2467,Storm,2026-05-30,2026-06-01,2026-06-06,5,Medium
+SHP0099,Sony,Hyderabad,Pune,Delhivery,1609,Rain,2026-02-13,2026-02-18,2026-02-20,2,Low
+SHP0100,Samsung,Mumbai,Pune,Blue Dart,1868,Clear,2026-06-23,2026-06-27,2026-07-02,5,High
+SHP0101,Apple,Kolkata,Ahmedabad,DHL,153,Fog,2026-03-22,2026-03-28,2026-04-02,5,Medium
+SHP0102,Asus,Kolkata,Bengaluru,DHL,511,Fog,2026-05-02,2026-05-04,2026-05-07,3,Medium
+SHP0103,HP,Chennai,Lucknow,FedEx,1789,Storm,2026-06-11,2026-06-15,2026-06-18,3,Low
+SHP0104,LG,Kolkata,Jaipur,DHL,1630,Storm,2026-06-20,2026-06-23,2026-06-23,0,Low
+SHP0105,HP,Mumbai,Jaipur,FedEx,907,Storm,2026-05-04,2026-05-10,2026-05-14,4,Low
+SHP0106,Asus,Hyderabad,Jaipur,Blue Dart,615,Fog,2026-06-13,2026-06-18,2026-06-18,0,Low
+SHP0107,Dell,Chennai,Lucknow,DHL,1411,Clear,2026-06-28,2026-07-04,2026-07-08,4,High
+SHP0108,HP,Kolkata,Ahmedabad,UPS,1347,Rain,2026-02-14,2026-02-20,2026-02-25,5,High
+SHP0109,Lenovo,Kolkata,Lucknow,UPS,2088,Storm,2026-01-15,2026-01-17,2026-01-21,4,High
+SHP0110,Dell,Kolkata,Ahmedabad,Delhivery,2055,Rain,2026-05-15,2026-05-19,2026-05-20,1,Medium
+SHP0111,Dell,Kolkata,Jaipur,DHL,1256,Rain,2026-04-13,2026-04-19,2026-04-22,3,Medium
+SHP0112,Asus,Chennai,Pune,UPS,1060,Fog,2026-04-02,2026-04-04,2026-04-08,4,High
+SHP0113,Samsung,Mumbai,Ahmedabad,DHL,2481,Storm,2026-01-06,2026-01-11,2026-01-15,4,High
+SHP0114,Sony,Hyderabad,Jaipur,FedEx,1895,Storm,2026-05-15,2026-05-17,2026-05-22,5,High
+SHP0115,Asus,Chennai,Bengaluru,Blue Dart,1073,Clear,2026-01-30,2026-02-02,2026-02-04,2,Medium
+SHP0116,Dell,Mumbai,Jaipur,Delhivery,1344,Storm,2026-04-19,2026-04-24,2026-04-26,2,Low
+SHP0117,HP,Hyderabad,Lucknow,Delhivery,1458,Clear,2026-05-17,2026-05-19,2026-05-23,4,Medium
+SHP0118,Samsung,Hyderabad,Jaipur,FedEx,2161,Storm,2026-06-12,2026-06-15,2026-06-16,1,Low
+SHP0119,Apple,Chennai,Jaipur,Blue Dart,565,Rain,2026-04-04,2026-04-08,2026-04-12,4,Medium
+SHP0120,HP,Hyderabad,Jaipur,FedEx,909,Storm,2026-02-05,2026-02-12,2026-02-13,1,High
+SHP0121,Lenovo,Delhi,Pune,FedEx,1380,Clear,2026-05-19,2026-05-22,2026-05-26,4,Medium
+SHP0122,Apple,Delhi,Ahmedabad,Delhivery,607,Rain,2026-04-02,2026-04-08,2026-04-08,0,High
+SHP0123,Sony,Chennai,Jaipur,DHL,1853,Clear,2026-06-17,2026-06-22,2026-06-24,2,High
+SHP0124,Asus,Delhi,Jaipur,Blue Dart,2357,Fog,2026-01-17,2026-01-24,2026-01-25,1,Medium
+SHP0125,LG,Mumbai,Pune,DHL,291,Clear,2026-03-10,2026-03-12,2026-03-16,4,Medium
+SHP0126,Dell,Chennai,Jaipur,DHL,531,Storm,2026-01-06,2026-01-12,2026-01-17,5,Medium
+SHP0127,Apple,Chennai,Jaipur,UPS,1073,Rain,2026-04-05,2026-04-08,2026-04-12,4,Medium
+SHP0128,Apple,Chennai,Ahmedabad,UPS,121,Clear,2026-04-11,2026-04-13,2026-04-15,2,Medium
+SHP0129,LG,Mumbai,Ahmedabad,Delhivery,1883,Clear,2026-04-25,2026-05-01,2026-05-01,0,Medium
+SHP0130,Asus,Hyderabad,Pune,Blue Dart,1555,Fog,2026-03-26,2026-03-28,2026-04-02,5,Low
+SHP0131,Sony,Hyderabad,Lucknow,DHL,438,Rain,2026-04-24,2026-04-27,2026-05-02,5,Low
+SHP0132,Sony,Delhi,Bengaluru,UPS,1525,Clear,2026-01-30,2026-02-04,2026-02-06,2,High
+SHP0133,Lenovo,Mumbai,Jaipur,UPS,1126,Rain,2026-05-31,2026-06-03,2026-06-08,5,Medium
+SHP0134,Samsung,Delhi,Pune,DHL,1612,Clear,2026-02-13,2026-02-16,2026-02-16,0,Medium
+SHP0135,HP,Kolkata,Bengaluru,FedEx,626,Rain,2026-06-14,2026-06-19,2026-06-21,2,Medium
+SHP0136,Sony,Hyderabad,Bengaluru,UPS,1586,Clear,2026-01-12,2026-01-14,2026-01-18,4,High
+SHP0137,Samsung,Hyderabad,Jaipur,FedEx,104,Storm,2026-05-03,2026-05-10,2026-05-15,5,Low
+SHP0138,Apple,Mumbai,Lucknow,Delhivery,513,Clear,2026-02-26,2026-03-02,2026-03-07,5,Low
+SHP0139,Sony,Kolkata,Ahmedabad,DHL,2112,Fog,2026-04-11,2026-04-17,2026-04-22,5,High
+SHP0140,Samsung,Kolkata,Pune,Blue Dart,1344,Storm,2026-05-20,2026-05-24,2026-05-28,4,High
+SHP0141,Sony,Mumbai,Jaipur,Blue Dart,1435,Clear,2026-03-13,2026-03-20,2026-03-24,4,Low
+SHP0142,Samsung,Delhi,Bengaluru,Delhivery,905,Rain,2026-04-27,2026-04-30,2026-04-30,0,High
+SHP0143,Sony,Kolkata,Bengaluru,FedEx,265,Storm,2026-05-18,2026-05-20,2026-05-23,3,High
+SHP0144,Lenovo,Mumbai,Bengaluru,Blue Dart,2388,Clear,2026-02-18,2026-02-25,2026-02-28,3,High
+SHP0145,HP,Chennai,Ahmedabad,UPS,888,Fog,2026-04-24,2026-04-27,2026-04-30,3,Low
+SHP0146,Sony,Mumbai,Pune,UPS,111,Storm,2026-04-14,2026-04-18,2026-04-18,0,Low
+SHP0147,Apple,Kolkata,Bengaluru,FedEx,2145,Rain,2026-03-12,2026-03-18,2026-03-22,4,Low
+SHP0148,Lenovo,Hyderabad,Pune,UPS,837,Clear,2026-05-17,2026-05-21,2026-05-22,1,Medium
+SHP0149,LG,Hyderabad,Bengaluru,DHL,1748,Fog,2026-05-02,2026-05-06,2026-05-10,4,Medium
+SHP0150,HP,Chennai,Ahmedabad,UPS,589,Storm,2026-06-23,2026-06-29,2026-06-29,0,Medium
+SHP0151,Dell,Hyderabad,Ahmedabad,DHL,1984,Storm,2026-03-26,2026-03-30,2026-04-02,3,Low
+SHP0152,Sony,Hyderabad,Jaipur,DHL,2040,Storm,2026-03-04,2026-03-10,2026-03-14,4,Medium
+SHP0153,HP,Delhi,Ahmedabad,DHL,954,Fog,2026-02-02,2026-02-04,2026-02-07,3,High
+SHP0154,Asus,Kolkata,Jaipur,Delhivery,1280,Storm,2026-03-25,2026-03-28,2026-03-31,3,High
+SHP0155,Samsung,Delhi,Jaipur,DHL,2427,Rain,2026-04-01,2026-04-03,2026-04-07,4,Medium
+SHP0156,Samsung,Delhi,Jaipur,UPS,1426,Storm,2026-02-19,2026-02-23,2026-02-27,4,Medium
+SHP0157,Samsung,Mumbai,Pune,Blue Dart,359,Storm,2026-01-05,2026-01-08,2026-01-08,0,Medium
+SHP0158,Apple,Kolkata,Ahmedabad,DHL,723,Fog,2026-02-06,2026-02-11,2026-02-15,4,High
+SHP0159,Dell,Kolkata,Jaipur,Blue Dart,2201,Rain,2026-03-27,2026-03-29,2026-03-30,1,High
+SHP0160,Dell,Hyderabad,Lucknow,FedEx,2204,Rain,2026-01-21,2026-01-23,2026-01-27,4,Low
+SHP0161,HP,Delhi,Ahmedabad,Delhivery,1220,Rain,2026-01-24,2026-01-26,2026-01-27,1,Medium
+SHP0162,Samsung,Delhi,Lucknow,FedEx,2259,Clear,2026-06-26,2026-07-02,2026-07-06,4,Medium
+SHP0163,Sony,Delhi,Pune,Blue Dart,1054,Fog,2026-05-29,2026-06-02,2026-06-03,1,Medium
+SHP0164,Dell,Chennai,Lucknow,DHL,1288,Rain,2026-02-10,2026-02-13,2026-02-13,0,Low
+SHP0165,HP,Delhi,Lucknow,FedEx,1133,Rain,2026-06-02,2026-06-08,2026-06-09,1,High
+SHP0166,Apple,Chennai,Jaipur,DHL,654,Storm,2026-04-24,2026-04-27,2026-04-27,0,High
+SHP0167,LG,Delhi,Lucknow,DHL,1833,Storm,2026-06-26,2026-06-29,2026-06-29,0,High
+SHP0168,Samsung,Chennai,Jaipur,Delhivery,272,Fog,2026-01-22,2026-01-28,2026-02-01,4,High
+SHP0169,Sony,Delhi,Lucknow,DHL,900,Clear,2026-04-29,2026-05-02,2026-05-02,0,Low
+SHP0170,Asus,Mumbai,Ahmedabad,Blue Dart,1661,Rain,2026-05-10,2026-05-14,2026-05-14,0,High
+SHP0171,LG,Kolkata,Ahmedabad,DHL,1610,Rain,2026-02-20,2026-02-22,2026-02-24,2,Low
+SHP0172,LG,Mumbai,Pune,FedEx,1572,Rain,2026-06-28,2026-07-03,2026-07-03,0,Low
+SHP0173,Sony,Kolkata,Lucknow,UPS,292,Fog,2026-01-03,2026-01-06,2026-01-06,0,Low
+SHP0174,Sony,Mumbai,Jaipur,Delhivery,1532,Storm,2026-04-26,2026-05-01,2026-05-02,1,Medium
+SHP0175,Samsung,Mumbai,Lucknow,FedEx,422,Storm,2026-05-11,2026-05-14,2026-05-15,1,High
+SHP0176,Dell,Delhi,Ahmedabad,FedEx,1271,Rain,2026-01-07,2026-01-10,2026-01-12,2,Low
+SHP0177,Dell,Kolkata,Bengaluru,Delhivery,664,Fog,2026-05-20,2026-05-22,2026-05-26,4,Medium
+SHP0178,Samsung,Delhi,Pune,DHL,411,Fog,2026-01-31,2026-02-02,2026-02-05,3,Low
+SHP0179,Samsung,Kolkata,Jaipur,Blue Dart,682,Clear,2026-06-08,2026-06-13,2026-06-18,5,Low
+SHP0180,Dell,Chennai,Lucknow,DHL,1706,Rain,2026-02-23,2026-02-25,2026-03-02,5,High
+SHP0181,Asus,Hyderabad,Bengaluru,DHL,808,Clear,2026-03-11,2026-03-18,2026-03-18,0,Medium
+SHP0182,Dell,Mumbai,Lucknow,Delhivery,2356,Fog,2026-03-04,2026-03-11,2026-03-11,0,Medium
+SHP0183,HP,Delhi,Jaipur,DHL,341,Fog,2026-04-26,2026-04-29,2026-04-29,0,Low
+SHP0184,LG,Mumbai,Lucknow,Delhivery,825,Storm,2026-05-08,2026-05-11,2026-05-14,3,High
+SHP0185,Sony,Delhi,Jaipur,FedEx,2487,Fog,2026-03-11,2026-03-15,2026-03-20,5,Medium
+SHP0186,HP,Hyderabad,Lucknow,UPS,432,Storm,2026-06-01,2026-06-03,2026-06-08,5,Low
+SHP0187,Sony,Hyderabad,Jaipur,FedEx,2333,Storm,2026-04-13,2026-04-15,2026-04-19,4,Medium
+SHP0188,HP,Mumbai,Bengaluru,Delhivery,1455,Clear,2026-02-19,2026-02-25,2026-02-28,3,Low
+SHP0189,Sony,Hyderabad,Pune,Blue Dart,1631,Storm,2026-06-09,2026-06-15,2026-06-20,5,Medium
+SHP0190,Dell,Mumbai,Ahmedabad,DHL,945,Rain,2026-03-12,2026-03-18,2026-03-18,0,Low
+SHP0191,Asus,Delhi,Bengaluru,DHL,1004,Fog,2026-04-09,2026-04-14,2026-04-19,5,High
+SHP0192,Apple,Delhi,Ahmedabad,Delhivery,505,Storm,2026-06-27,2026-07-01,2026-07-01,0,High
+SHP0193,Apple,Mumbai,Jaipur,DHL,1315,Fog,2026-05-04,2026-05-11,2026-05-16,5,Low
+SHP0194,HP,Mumbai,Ahmedabad,FedEx,1975,Clear,2026-03-05,2026-03-07,2026-03-11,4,Low
+SHP0195,Apple,Delhi,Bengaluru,DHL,1186,Fog,2026-01-11,2026-01-16,2026-01-19,3,Medium
+SHP0196,Asus,Delhi,Bengaluru,UPS,1120,Storm,2026-02-22,2026-02-26,2026-02-28,2,Low
+SHP0197,Sony,Mumbai,Jaipur,Delhivery,1554,Fog,2026-06-24,2026-07-01,2026-07-06,5,Medium
+SHP0198,HP,Kolkata,Bengaluru,FedEx,572,Rain,2026-04-21,2026-04-25,2026-04-26,1,Medium
+SHP0199,LG,Hyderabad,Ahmedabad,UPS,1245,Fog,2026-04-02,2026-04-07,2026-04-09,2,High
+SHP0200,LG,Kolkata,Pune,UPS,1713,Fog,2026-01-13,2026-01-20,2026-01-23,3,Low
+SHP0201,Asus,Chennai,Jaipur,Blue Dart,2431,Clear,2026-01-12,2026-01-17,2026-01-22,5,High
+SHP0202,LG,Delhi,Bengaluru,FedEx,1499,Storm,2026-01-12,2026-01-15,2026-01-18,3,Medium
+SHP0203,Asus,Kolkata,Lucknow,Blue Dart,690,Fog,2026-05-29,2026-06-02,2026-06-02,0,High
+SHP0204,Apple,Chennai,Bengaluru,DHL,2166,Fog,2026-06-26,2026-06-28,2026-06-29,1,High
+SHP0205,Lenovo,Hyderabad,Bengaluru,UPS,125,Rain,2026-02-25,2026-03-02,2026-03-03,1,Low
+SHP0206,Dell,Mumbai,Lucknow,DHL,1983,Storm,2026-06-14,2026-06-19,2026-06-24,5,Medium
+SHP0207,Lenovo,Hyderabad,Bengaluru,DHL,1943,Rain,2026-02-20,2026-02-27,2026-02-28,1,Medium
+SHP0208,Lenovo,Delhi,Ahmedabad,Delhivery,1041,Clear,2026-01-17,2026-01-23,2026-01-28,5,Low
+SHP0209,HP,Kolkata,Ahmedabad,Delhivery,1079,Clear,2026-01-11,2026-01-13,2026-01-16,3,High
+SHP0210,Asus,Mumbai,Jaipur,DHL,543,Clear,2026-03-06,2026-03-12,2026-03-17,5,Medium
+SHP0211,Dell,Chennai,Lucknow,FedEx,2111,Rain,2026-06-09,2026-06-13,2026-06-16,3,Medium
+SHP0212,LG,Hyderabad,Lucknow,Blue Dart,623,Rain,2026-02-27,2026-03-06,2026-03-09,3,High
+SHP0213,Dell,Hyderabad,Ahmedabad,Blue Dart,670,Storm,2026-04-13,2026-04-15,2026-04-17,2,Low
+SHP0214,Samsung,Mumbai,Bengaluru,Delhivery,1320,Fog,2026-06-05,2026-06-09,2026-06-12,3,Low
+SHP0215,HP,Kolkata,Jaipur,Delhivery,655,Storm,2026-03-08,2026-03-14,2026-03-15,1,Low
+SHP0216,Apple,Hyderabad,Jaipur,DHL,2123,Storm,2026-05-17,2026-05-19,2026-05-22,3,Medium
+SHP0217,HP,Kolkata,Lucknow,FedEx,1216,Storm,2026-04-25,2026-05-02,2026-05-04,2,High
+SHP0218,Samsung,Mumbai,Lucknow,DHL,397,Rain,2026-03-09,2026-03-16,2026-03-18,2,Low
+SHP0219,Sony,Chennai,Pune,DHL,707,Clear,2026-06-17,2026-06-19,2026-06-23,4,Low
+SHP0220,Apple,Delhi,Jaipur,UPS,1666,Rain,2026-03-23,2026-03-25,2026-03-25,0,Low
+SHP0221,Dell,Kolkata,Ahmedabad,DHL,661,Storm,2026-05-31,2026-06-06,2026-06-10,4,Low
+SHP0222,Samsung,Chennai,Bengaluru,UPS,1158,Storm,2026-03-28,2026-04-04,2026-04-05,1,Medium
+SHP0223,Lenovo,Chennai,Bengaluru,FedEx,588,Rain,2026-05-19,2026-05-23,2026-05-25,2,Medium
+SHP0224,HP,Chennai,Bengaluru,UPS,1850,Fog,2026-04-20,2026-04-27,2026-04-27,0,Medium
+SHP0225,HP,Kolkata,Bengaluru,UPS,1652,Fog,2026-03-08,2026-03-15,2026-03-19,4,High
+SHP0226,Sony,Delhi,Pune,FedEx,693,Rain,2026-01-21,2026-01-27,2026-01-30,3,Medium
+SHP0227,Asus,Mumbai,Ahmedabad,Blue Dart,811,Fog,2026-03-17,2026-03-24,2026-03-24,0,High
+SHP0228,Sony,Mumbai,Jaipur,UPS,986,Rain,2026-01-02,2026-01-09,2026-01-09,0,Medium
+SHP0229,Asus,Delhi,Ahmedabad,UPS,2031,Rain,2026-01-21,2026-01-27,2026-01-28,1,High
+SHP0230,Apple,Hyderabad,Jaipur,DHL,1402,Rain,2026-04-15,2026-04-22,2026-04-24,2,High
+SHP0231,Dell,Chennai,Lucknow,Delhivery,1004,Storm,2026-06-18,2026-06-24,2026-06-28,4,Low
+SHP0232,LG,Delhi,Ahmedabad,FedEx,2054,Fog,2026-01-03,2026-01-09,2026-01-13,4,High
+SHP0233,Apple,Kolkata,Lucknow,Blue Dart,1525,Storm,2026-06-22,2026-06-29,2026-07-04,5,High
+SHP0234,HP,Delhi,Pune,DHL,1729,Rain,2026-04-05,2026-04-12,2026-04-13,1,High
+SHP0235,Apple,Delhi,Lucknow,Delhivery,2469,Rain,2026-04-20,2026-04-25,2026-04-26,1,High
+SHP0236,Asus,Kolkata,Ahmedabad,Delhivery,1485,Storm,2026-06-27,2026-06-30,2026-07-01,1,Low
+SHP0237,LG,Hyderabad,Pune,Blue Dart,2372,Rain,2026-06-03,2026-06-07,2026-06-09,2,Medium
+SHP0238,Dell,Hyderabad,Pune,Blue Dart,1649,Clear,2026-05-14,2026-05-21,2026-05-26,5,High
+SHP0239,Dell,Hyderabad,Jaipur,FedEx,1352,Fog,2026-02-24,2026-02-26,2026-03-02,4,Medium
+SHP0240,Lenovo,Hyderabad,Jaipur,Blue Dart,1774,Rain,2026-02-19,2026-02-24,2026-02-24,0,Low
+SHP0241,Dell,Hyderabad,Pune,Delhivery,1312,Clear,2026-03-17,2026-03-20,2026-03-21,1,Medium
+SHP0242,Dell,Kolkata,Lucknow,Delhivery,2392,Rain,2026-05-30,2026-06-05,2026-06-06,1,Low
+SHP0243,Lenovo,Chennai,Lucknow,DHL,1489,Rain,2026-02-07,2026-02-13,2026-02-16,3,Low
+SHP0244,LG,Delhi,Pune,Delhivery,654,Clear,2026-05-18,2026-05-24,2026-05-24,0,Medium
+SHP0245,Asus,Delhi,Ahmedabad,DHL,451,Storm,2026-03-25,2026-03-27,2026-03-28,1,High
+SHP0246,Samsung,Kolkata,Ahmedabad,UPS,671,Rain,2026-03-24,2026-03-31,2026-04-01,1,High
+SHP0247,Asus,Hyderabad,Ahmedabad,Delhivery,470,Storm,2026-03-13,2026-03-20,2026-03-22,2,Low
+SHP0248,Samsung,Hyderabad,Bengaluru,UPS,1474,Storm,2026-06-09,2026-06-15,2026-06-16,1,Medium
+SHP0249,HP,Hyderabad,Ahmedabad,UPS,556,Clear,2026-05-06,2026-05-08,2026-05-12,4,Medium
+SHP0250,LG,Kolkata,Ahmedabad,DHL,1338,Rain,2026-04-14,2026-04-17,2026-04-22,5,High
+SHP0251,Asus,Delhi,Jaipur,Blue Dart,1316,Rain,2026-01-01,2026-01-07,2026-01-07,0,High
+SHP0252,Samsung,Chennai,Bengaluru,DHL,1383,Rain,2026-02-10,2026-02-12,2026-02-14,2,High
+SHP0253,Dell,Kolkata,Ahmedabad,Blue Dart,2435,Fog,2026-01-26,2026-02-01,2026-02-01,0,High
+SHP0254,Asus,Hyderabad,Bengaluru,FedEx,285,Clear,2026-06-10,2026-06-12,2026-06-17,5,Low
+SHP0255,HP,Chennai,Bengaluru,Delhivery,1590,Fog,2026-03-07,2026-03-13,2026-03-13,0,Low
+SHP0256,Lenovo,Kolkata,Jaipur,Blue Dart,234,Storm,2026-03-28,2026-03-30,2026-04-01,2,Medium
+SHP0257,HP,Mumbai,Bengaluru,DHL,945,Storm,2026-03-30,2026-04-05,2026-04-08,3,High
+SHP0258,Asus,Hyderabad,Ahmedabad,Blue Dart,2335,Fog,2026-04-29,2026-05-04,2026-05-04,0,Low
+SHP0259,LG,Mumbai,Jaipur,Delhivery,325,Storm,2026-02-02,2026-02-06,2026-02-10,4,High
+SHP0260,LG,Mumbai,Bengaluru,FedEx,280,Storm,2026-01-25,2026-01-30,2026-02-03,4,Low
+SHP0261,Lenovo,Delhi,Jaipur,UPS,1038,Fog,2026-06-13,2026-06-15,2026-06-20,5,Medium
+SHP0262,Asus,Mumbai,Ahmedabad,DHL,1461,Storm,2026-04-28,2026-05-02,2026-05-06,4,High
+SHP0263,Dell,Delhi,Ahmedabad,UPS,208,Clear,2026-03-03,2026-03-07,2026-03-08,1,High
+SHP0264,Sony,Hyderabad,Bengaluru,UPS,1389,Clear,2026-05-15,2026-05-21,2026-05-22,1,Medium
+SHP0265,Apple,Mumbai,Ahmedabad,UPS,2114,Fog,2026-04-10,2026-04-12,2026-04-14,2,High
+SHP0266,Apple,Kolkata,Lucknow,UPS,972,Fog,2026-03-27,2026-04-01,2026-04-03,2,Medium
+SHP0267,HP,Chennai,Bengaluru,Delhivery,2491,Storm,2026-06-23,2026-06-27,2026-07-01,4,Low
+SHP0268,Asus,Mumbai,Bengaluru,Delhivery,173,Rain,2026-02-03,2026-02-06,2026-02-09,3,High
+SHP0269,Apple,Delhi,Bengaluru,UPS,619,Fog,2026-01-03,2026-01-06,2026-01-09,3,High
+SHP0270,Asus,Chennai,Ahmedabad,Delhivery,2491,Rain,2026-01-21,2026-01-25,2026-01-29,4,Medium
+SHP0271,Dell,Mumbai,Bengaluru,UPS,1620,Clear,2026-06-09,2026-06-15,2026-06-20,5,Medium
+SHP0272,Apple,Delhi,Pune,Blue Dart,1395,Storm,2026-06-06,2026-06-08,2026-06-08,0,Medium
+SHP0273,LG,Kolkata,Pune,FedEx,750,Rain,2026-05-17,2026-05-19,2026-05-21,2,High
+SHP0274,LG,Mumbai,Lucknow,UPS,721,Rain,2026-05-29,2026-06-04,2026-06-05,1,Medium
+SHP0275,Lenovo,Kolkata,Pune,DHL,177,Rain,2026-03-19,2026-03-22,2026-03-26,4,Low
+SHP0276,Apple,Hyderabad,Jaipur,FedEx,2317,Rain,2026-04-13,2026-04-19,2026-04-22,3,Low
+SHP0277,HP,Mumbai,Bengaluru,Delhivery,611,Rain,2026-04-04,2026-04-11,2026-04-12,1,Low
+SHP0278,Sony,Kolkata,Pune,Delhivery,204,Clear,2026-03-26,2026-03-31,2026-04-02,2,High
+SHP0279,Lenovo,Mumbai,Bengaluru,DHL,779,Rain,2026-02-06,2026-02-10,2026-02-13,3,Low
+SHP0280,Samsung,Chennai,Bengaluru,Blue Dart,1520,Storm,2026-01-09,2026-01-16,2026-01-17,1,Medium
+SHP0281,HP,Delhi,Ahmedabad,UPS,124,Storm,2026-01-16,2026-01-22,2026-01-27,5,Low
+SHP0282,LG,Mumbai,Ahmedabad,FedEx,198,Fog,2026-05-11,2026-05-15,2026-05-19,4,High
+SHP0283,Samsung,Kolkata,Jaipur,FedEx,195,Clear,2026-04-23,2026-04-29,2026-05-01,2,High
+SHP0284,Apple,Chennai,Pune,FedEx,651,Rain,2026-01-03,2026-01-09,2026-01-11,2,High
+SHP0285,HP,Mumbai,Lucknow,Delhivery,2020,Clear,2026-04-27,2026-04-30,2026-05-02,2,Medium
+SHP0286,Lenovo,Kolkata,Ahmedabad,UPS,2091,Storm,2026-06-24,2026-06-26,2026-06-27,1,Medium
+SHP0287,Apple,Delhi,Ahmedabad,Delhivery,1211,Clear,2026-05-19,2026-05-25,2026-05-27,2,Low
+SHP0288,LG,Kolkata,Pune,Delhivery,700,Fog,2026-04-18,2026-04-24,2026-04-24,0,High
+SHP0289,HP,Kolkata,Lucknow,FedEx,673,Storm,2026-05-25,2026-06-01,2026-06-03,2,Low
+SHP0290,Lenovo,Chennai,Pune,FedEx,990,Storm,2026-02-05,2026-02-09,2026-02-12,3,Medium
+SHP0291,Samsung,Hyderabad,Ahmedabad,Delhivery,828,Clear,2026-03-24,2026-03-29,2026-04-01,3,Low
+SHP0292,Sony,Chennai,Bengaluru,DHL,2014,Clear,2026-03-19,2026-03-24,2026-03-24,0,Low
+SHP0293,Sony,Delhi,Pune,UPS,417,Fog,2026-03-26,2026-04-01,2026-04-04,3,Low
+SHP0294,Dell,Delhi,Bengaluru,UPS,1091,Fog,2026-01-02,2026-01-07,2026-01-07,0,Low
+SHP0295,Lenovo,Kolkata,Lucknow,FedEx,2326,Fog,2026-01-07,2026-01-11,2026-01-16,5,High
+SHP0296,HP,Delhi,Bengaluru,FedEx,1356,Clear,2026-06-12,2026-06-16,2026-06-21,5,High
+SHP0297,Apple,Chennai,Ahmedabad,UPS,305,Clear,2026-04-12,2026-04-19,2026-04-19,0,High
+SHP0298,Lenovo,Chennai,Bengaluru,Blue Dart,2072,Fog,2026-01-10,2026-01-14,2026-01-14,0,Low
+SHP0299,LG,Mumbai,Bengaluru,Blue Dart,1864,Fog,2026-04-22,2026-04-27,2026-04-30,3,Low
+SHP0300,HP,Kolkata,Ahmedabad,Blue Dart,2009,Clear,2026-04-10,2026-04-15,2026-04-16,1,Low
+SHP0301,HP,Mumbai,Bengaluru,Delhivery,1240,Storm,2026-02-15,2026-02-17,2026-02-19,2,Low
+SHP0302,Apple,Mumbai,Ahmedabad,FedEx,516,Storm,2026-05-18,2026-05-22,2026-05-24,2,High
+SHP0303,Lenovo,Hyderabad,Ahmedabad,Delhivery,711,Storm,2026-04-10,2026-04-13,2026-04-16,3,Low
+SHP0304,Apple,Mumbai,Jaipur,FedEx,1724,Rain,2026-01-16,2026-01-19,2026-01-22,3,Low
+SHP0305,Samsung,Kolkata,Pune,Delhivery,332,Rain,2026-04-24,2026-04-26,2026-04-30,4,Medium
+SHP0306,Asus,Delhi,Pune,DHL,2324,Rain,2026-02-12,2026-02-19,2026-02-22,3,High
+SHP0307,LG,Hyderabad,Bengaluru,FedEx,1546,Fog,2026-03-10,2026-03-14,2026-03-18,4,Low
+SHP0308,Lenovo,Mumbai,Bengaluru,Delhivery,293,Fog,2026-03-15,2026-03-22,2026-03-24,2,High
+SHP0309,Sony,Kolkata,Jaipur,Blue Dart,2154,Clear,2026-05-23,2026-05-30,2026-05-30,0,High
+SHP0310,Sony,Kolkata,Bengaluru,FedEx,2228,Storm,2026-02-10,2026-02-14,2026-02-19,5,Medium
+SHP0311,HP,Chennai,Jaipur,FedEx,496,Fog,2026-05-11,2026-05-14,2026-05-17,3,Medium
+SHP0312,HP,Mumbai,Lucknow,FedEx,2375,Clear,2026-06-23,2026-06-30,2026-07-01,1,Medium
+SHP0313,Sony,Chennai,Pune,Blue Dart,1496,Fog,2026-01-01,2026-01-07,2026-01-10,3,High
+SHP0314,Sony,Hyderabad,Ahmedabad,DHL,678,Rain,2026-05-28,2026-06-01,2026-06-02,1,Medium
+SHP0315,Dell,Mumbai,Bengaluru,UPS,2033,Storm,2026-05-30,2026-06-03,2026-06-05,2,Medium
+SHP0316,Apple,Kolkata,Bengaluru,Blue Dart,1195,Fog,2026-04-30,2026-05-05,2026-05-09,4,High
+SHP0317,LG,Chennai,Ahmedabad,Delhivery,887,Rain,2026-04-21,2026-04-23,2026-04-25,2,Low
+SHP0318,HP,Kolkata,Pune,Blue Dart,975,Storm,2026-06-28,2026-07-01,2026-07-02,1,Medium
+SHP0319,Apple,Delhi,Jaipur,Blue Dart,988,Rain,2026-03-16,2026-03-23,2026-03-25,2,Low
+SHP0320,Samsung,Mumbai,Ahmedabad,Blue Dart,1547,Clear,2026-05-22,2026-05-27,2026-06-01,5,Low
+SHP0321,Asus,Kolkata,Jaipur,Delhivery,2309,Rain,2026-03-15,2026-03-19,2026-03-20,1,Low
+SHP0322,HP,Delhi,Pune,UPS,1403,Rain,2026-06-29,2026-07-03,2026-07-07,4,Medium
+SHP0323,Dell,Hyderabad,Bengaluru,UPS,2442,Clear,2026-05-12,2026-05-16,2026-05-20,4,High
+SHP0324,Apple,Mumbai,Bengaluru,DHL,1926,Fog,2026-06-27,2026-07-01,2026-07-02,1,Low
+SHP0325,Sony,Kolkata,Lucknow,FedEx,1847,Fog,2026-06-22,2026-06-28,2026-06-29,1,Medium
+SHP0326,Apple,Chennai,Bengaluru,Blue Dart,113,Rain,2026-03-03,2026-03-09,2026-03-11,2,Low
+SHP0327,Apple,Hyderabad,Ahmedabad,Blue Dart,2123,Storm,2026-06-28,2026-07-05,2026-07-10,5,High
+SHP0328,LG,Hyderabad,Lucknow,FedEx,2311,Rain,2026-04-14,2026-04-20,2026-04-23,3,High
+SHP0329,Apple,Chennai,Jaipur,DHL,1859,Clear,2026-01-30,2026-02-02,2026-02-07,5,Medium
+SHP0330,Dell,Delhi,Jaipur,UPS,203,Rain,2026-06-17,2026-06-22,2026-06-27,5,Low
+SHP0331,Samsung,Chennai,Lucknow,FedEx,1294,Storm,2026-03-26,2026-03-30,2026-03-30,0,Medium
+SHP0332,LG,Delhi,Pune,Blue Dart,592,Rain,2026-06-09,2026-06-12,2026-06-12,0,High
+SHP0333,Samsung,Hyderabad,Pune,DHL,1084,Clear,2026-03-23,2026-03-26,2026-03-31,5,Medium
+SHP0334,Lenovo,Delhi,Jaipur,UPS,2035,Fog,2026-03-26,2026-04-01,2026-04-01,0,Low
+SHP0335,HP,Mumbai,Lucknow,Blue Dart,2126,Clear,2026-04-30,2026-05-06,2026-05-07,1,Medium
+SHP0336,Apple,Kolkata,Pune,Blue Dart,1340,Clear,2026-05-27,2026-05-30,2026-06-02,3,High
+SHP0337,LG,Hyderabad,Jaipur,FedEx,354,Storm,2026-06-22,2026-06-29,2026-07-03,4,Low
+SHP0338,Asus,Delhi,Ahmedabad,Delhivery,1679,Fog,2026-05-18,2026-05-23,2026-05-25,2,Medium
+SHP0339,Sony,Hyderabad,Bengaluru,DHL,2052,Clear,2026-04-15,2026-04-17,2026-04-20,3,High
+SHP0340,Sony,Mumbai,Pune,UPS,1875,Storm,2026-06-14,2026-06-19,2026-06-21,2,Low
+SHP0341,Dell,Hyderabad,Jaipur,UPS,1289,Rain,2026-03-07,2026-03-12,2026-03-17,5,High
+SHP0342,LG,Delhi,Bengaluru,UPS,2040,Rain,2026-01-09,2026-01-16,2026-01-20,4,High
+SHP0343,HP,Chennai,Bengaluru,FedEx,1536,Fog,2026-05-20,2026-05-22,2026-05-23,1,Medium
+SHP0344,Lenovo,Delhi,Ahmedabad,DHL,2285,Clear,2026-02-17,2026-02-20,2026-02-22,2,Medium
+SHP0345,Lenovo,Hyderabad,Lucknow,UPS,310,Storm,2026-01-29,2026-02-01,2026-02-06,5,High
+SHP0346,Apple,Chennai,Jaipur,Blue Dart,867,Clear,2026-05-29,2026-05-31,2026-06-01,1,Low
+SHP0347,LG,Delhi,Jaipur,FedEx,789,Storm,2026-05-30,2026-06-02,2026-06-03,1,Low
+SHP0348,LG,Mumbai,Pune,Delhivery,756,Fog,2026-02-13,2026-02-18,2026-02-22,4,Medium
+SHP0349,Dell,Mumbai,Ahmedabad,DHL,1102,Storm,2026-01-04,2026-01-06,2026-01-09,3,Medium
+SHP0350,Dell,Mumbai,Bengaluru,Blue Dart,824,Fog,2026-02-03,2026-02-08,2026-02-12,4,High
+SHP0351,LG,Mumbai,Pune,FedEx,1181,Fog,2026-05-28,2026-06-03,2026-06-03,0,Medium
+SHP0352,Lenovo,Delhi,Jaipur,Delhivery,1412,Rain,2026-01-08,2026-01-10,2026-01-12,2,Medium
+SHP0353,LG,Kolkata,Pune,Delhivery,1797,Fog,2026-01-17,2026-01-23,2026-01-28,5,Low
+SHP0354,Dell,Kolkata,Bengaluru,UPS,571,Clear,2026-01-11,2026-01-18,2026-01-22,4,High
+SHP0355,Apple,Mumbai,Pune,Delhivery,1911,Rain,2026-02-01,2026-02-06,2026-02-11,5,Low
+SHP0356,Samsung,Kolkata,Ahmedabad,Blue Dart,305,Fog,2026-03-22,2026-03-29,2026-04-02,4,Low
+SHP0357,Samsung,Kolkata,Lucknow,Blue Dart,1008,Rain,2026-04-23,2026-04-26,2026-04-26,0,Medium
+SHP0358,LG,Mumbai,Jaipur,FedEx,1545,Rain,2026-06-04,2026-06-08,2026-06-11,3,High
+SHP0359,Asus,Mumbai,Pune,Blue Dart,1395,Fog,2026-04-01,2026-04-08,2026-04-13,5,Medium
+SHP0360,LG,Hyderabad,Bengaluru,UPS,1515,Storm,2026-04-21,2026-04-28,2026-04-28,0,High
+SHP0361,Lenovo,Mumbai,Bengaluru,UPS,1129,Storm,2026-03-04,2026-03-06,2026-03-11,5,High
+SHP0362,Sony,Mumbai,Pune,UPS,2215,Rain,2026-04-20,2026-04-25,2026-04-30,5,Low
+SHP0363,Lenovo,Mumbai,Lucknow,Delhivery,233,Clear,2026-05-26,2026-05-29,2026-06-03,5,Medium
+SHP0364,Apple,Mumbai,Ahmedabad,DHL,1648,Fog,2026-03-14,2026-03-19,2026-03-22,3,High
+SHP0365,Sony,Delhi,Bengaluru,Blue Dart,951,Fog,2026-03-29,2026-04-03,2026-04-03,0,High
+SHP0366,Asus,Mumbai,Bengaluru,Blue Dart,809,Storm,2026-04-15,2026-04-21,2026-04-24,3,Medium
+SHP0367,Sony,Chennai,Jaipur,DHL,1674,Fog,2026-04-04,2026-04-08,2026-04-13,5,Low
+SHP0368,Sony,Delhi,Jaipur,Blue Dart,1355,Fog,2026-05-07,2026-05-14,2026-05-14,0,Low
+SHP0369,Asus,Hyderabad,Pune,Delhivery,278,Storm,2026-04-12,2026-04-19,2026-04-19,0,Low
+SHP0370,Sony,Hyderabad,Ahmedabad,UPS,142,Fog,2026-01-10,2026-01-14,2026-01-15,1,High
+SHP0371,Dell,Kolkata,Pune,Blue Dart,1713,Storm,2026-03-11,2026-03-15,2026-03-15,0,High
+SHP0372,HP,Kolkata,Pune,Delhivery,267,Fog,2026-04-02,2026-04-08,2026-04-12,4,Low
+SHP0373,Dell,Mumbai,Ahmedabad,Blue Dart,1043,Storm,2026-04-19,2026-04-23,2026-04-26,3,High
+SHP0374,HP,Chennai,Lucknow,Blue Dart,1715,Rain,2026-03-08,2026-03-12,2026-03-14,2,Low
+SHP0375,Samsung,Mumbai,Lucknow,Delhivery,1048,Fog,2026-01-30,2026-02-01,2026-02-06,5,Low
+SHP0376,Apple,Delhi,Lucknow,FedEx,496,Rain,2026-04-26,2026-04-29,2026-04-29,0,Low
+SHP0377,Dell,Kolkata,Jaipur,DHL,1140,Fog,2026-05-09,2026-05-13,2026-05-18,5,Medium
+SHP0378,Dell,Delhi,Bengaluru,FedEx,2329,Clear,2026-04-06,2026-04-13,2026-04-16,3,High
+SHP0379,Apple,Delhi,Ahmedabad,UPS,1926,Clear,2026-02-28,2026-03-02,2026-03-07,5,High
+SHP0380,HP,Mumbai,Jaipur,UPS,1055,Clear,2026-03-05,2026-03-10,2026-03-11,1,Medium
+SHP0381,HP,Mumbai,Jaipur,FedEx,209,Clear,2026-01-08,2026-01-13,2026-01-14,1,Medium
+SHP0382,Apple,Kolkata,Lucknow,DHL,1600,Storm,2026-02-01,2026-02-06,2026-02-07,1,High
+SHP0383,Apple,Hyderabad,Bengaluru,DHL,2317,Storm,2026-03-03,2026-03-05,2026-03-10,5,Medium
+SHP0384,Asus,Chennai,Lucknow,Blue Dart,249,Rain,2026-04-15,2026-04-22,2026-04-24,2,Low
+SHP0385,HP,Kolkata,Jaipur,DHL,221,Storm,2026-04-20,2026-04-25,2026-04-29,4,Medium
+SHP0386,Lenovo,Mumbai,Pune,DHL,768,Clear,2026-03-04,2026-03-11,2026-03-11,0,Low
+SHP0387,Dell,Chennai,Lucknow,UPS,677,Fog,2026-05-22,2026-05-24,2026-05-29,5,High
+SHP0388,LG,Hyderabad,Ahmedabad,Delhivery,1348,Rain,2026-05-31,2026-06-03,2026-06-04,1,High
+SHP0389,HP,Mumbai,Ahmedabad,UPS,2377,Storm,2026-01-29,2026-02-03,2026-02-08,5,Low
+SHP0390,Samsung,Kolkata,Lucknow,FedEx,1146,Rain,2026-02-23,2026-02-25,2026-03-01,4,Medium
+SHP0391,Samsung,Mumbai,Pune,Delhivery,848,Rain,2026-01-09,2026-01-13,2026-01-13,0,High
+SHP0392,Asus,Mumbai,Ahmedabad,Delhivery,446,Clear,2026-05-08,2026-05-12,2026-05-13,1,High
+SHP0393,Apple,Kolkata,Bengaluru,UPS,810,Storm,2026-02-16,2026-02-18,2026-02-22,4,Medium
+SHP0394,Samsung,Chennai,Lucknow,Delhivery,2433,Fog,2026-03-05,2026-03-09,2026-03-11,2,High
+SHP0395,HP,Hyderabad,Pune,FedEx,488,Rain,2026-02-08,2026-02-13,2026-02-13,0,Low
+SHP0396,Asus,Delhi,Ahmedabad,FedEx,1429,Rain,2026-05-24,2026-05-29,2026-05-29,0,Low
+SHP0397,LG,Chennai,Bengaluru,UPS,487,Clear,2026-01-26,2026-02-02,2026-02-03,1,Medium
+SHP0398,Samsung,Kolkata,Bengaluru,Blue Dart,572,Clear,2026-03-11,2026-03-16,2026-03-19,3,Medium
+SHP0399,Dell,Delhi,Jaipur,UPS,1232,Storm,2026-04-22,2026-04-28,2026-05-01,3,High
+SHP0400,LG,Kolkata,Lucknow,DHL,2293,Fog,2026-01-30,2026-02-01,2026-02-02,1,Low
+SHP0401,Dell,Kolkata,Bengaluru,Delhivery,953,Clear,2026-01-04,2026-01-08,2026-01-09,1,High
+SHP0402,LG,Delhi,Ahmedabad,FedEx,1306,Rain,2026-04-26,2026-05-03,2026-05-07,4,Low
+SHP0403,Samsung,Kolkata,Pune,UPS,1484,Storm,2026-01-01,2026-01-04,2026-01-04,0,Low
+SHP0404,Apple,Mumbai,Jaipur,DHL,1327,Storm,2026-06-30,2026-07-05,2026-07-08,3,High
+SHP0405,Asus,Kolkata,Bengaluru,Delhivery,1684,Rain,2026-02-19,2026-02-22,2026-02-27,5,Low
+SHP0406,LG,Delhi,Pune,Blue Dart,439,Fog,2026-03-30,2026-04-04,2026-04-04,0,Medium
+SHP0407,Dell,Hyderabad,Pune,Delhivery,2351,Fog,2026-02-12,2026-02-15,2026-02-17,2,Low
+SHP0408,Lenovo,Chennai,Bengaluru,UPS,1786,Fog,2026-06-12,2026-06-17,2026-06-17,0,High
+SHP0409,Sony,Chennai,Lucknow,FedEx,1641,Storm,2026-05-31,2026-06-07,2026-06-10,3,High
+SHP0410,Apple,Hyderabad,Lucknow,Blue Dart,141,Rain,2026-06-10,2026-06-15,2026-06-16,1,Medium
+SHP0411,Apple,Kolkata,Jaipur,Delhivery,2290,Clear,2026-05-20,2026-05-27,2026-05-29,2,Medium
+SHP0412,Samsung,Hyderabad,Pune,Delhivery,396,Clear,2026-05-28,2026-05-31,2026-06-04,4,Low
+SHP0413,Asus,Chennai,Bengaluru,UPS,1864,Fog,2026-01-20,2026-01-26,2026-01-31,5,Low
+SHP0414,Apple,Mumbai,Jaipur,FedEx,1654,Fog,2026-02-04,2026-02-10,2026-02-12,2,Low
+SHP0415,HP,Delhi,Pune,DHL,1401,Rain,2026-05-21,2026-05-26,2026-05-27,1,Low
+SHP0416,Samsung,Hyderabad,Bengaluru,Blue Dart,1549,Fog,2026-04-17,2026-04-22,2026-04-24,2,Medium
+SHP0417,HP,Delhi,Lucknow,Blue Dart,353,Storm,2026-05-29,2026-06-05,2026-06-10,5,High
+SHP0418,HP,Mumbai,Pune,UPS,526,Rain,2026-05-09,2026-05-13,2026-05-16,3,Medium
+SHP0419,Dell,Mumbai,Jaipur,DHL,1772,Fog,2026-01-27,2026-01-30,2026-01-31,1,Low
+SHP0420,Asus,Delhi,Pune,UPS,125,Storm,2026-01-20,2026-01-25,2026-01-25,0,Low
+SHP0421,Asus,Kolkata,Lucknow,FedEx,2037,Storm,2026-04-04,2026-04-06,2026-04-08,2,High
+SHP0422,HP,Delhi,Jaipur,FedEx,250,Fog,2026-05-06,2026-05-08,2026-05-11,3,High
+SHP0423,Lenovo,Delhi,Bengaluru,FedEx,2326,Storm,2026-05-20,2026-05-23,2026-05-27,4,Low
+SHP0424,Sony,Mumbai,Jaipur,Blue Dart,1525,Fog,2026-05-16,2026-05-20,2026-05-20,0,Low
+SHP0425,Asus,Mumbai,Jaipur,UPS,2487,Clear,2026-02-02,2026-02-04,2026-02-05,1,High
+SHP0426,Lenovo,Delhi,Pune,FedEx,1497,Fog,2026-05-28,2026-06-01,2026-06-02,1,High
+SHP0427,Sony,Mumbai,Lucknow,DHL,1184,Storm,2026-05-31,2026-06-06,2026-06-07,1,Low
+SHP0428,LG,Kolkata,Bengaluru,Delhivery,2489,Storm,2026-05-19,2026-05-23,2026-05-23,0,Low
+SHP0429,Samsung,Delhi,Bengaluru,UPS,1753,Fog,2026-01-03,2026-01-09,2026-01-09,0,High
+SHP0430,Samsung,Mumbai,Lucknow,Blue Dart,1335,Fog,2026-04-29,2026-05-05,2026-05-06,1,Low
+SHP0431,Asus,Kolkata,Jaipur,DHL,2047,Rain,2026-06-03,2026-06-08,2026-06-11,3,Medium
+SHP0432,Sony,Mumbai,Jaipur,DHL,1894,Storm,2026-04-21,2026-04-24,2026-04-26,2,Medium
+SHP0433,LG,Mumbai,Pune,DHL,2485,Storm,2026-03-24,2026-03-26,2026-03-27,1,Medium
+SHP0434,Asus,Hyderabad,Jaipur,UPS,1417,Rain,2026-06-23,2026-06-26,2026-06-26,0,High
+SHP0435,Lenovo,Delhi,Ahmedabad,UPS,2454,Storm,2026-04-28,2026-05-03,2026-05-03,0,High
+SHP0436,Sony,Hyderabad,Ahmedabad,UPS,1243,Storm,2026-02-04,2026-02-10,2026-02-10,0,High
+SHP0437,Asus,Kolkata,Bengaluru,FedEx,1396,Clear,2026-02-01,2026-02-06,2026-02-08,2,High
+SHP0438,Apple,Mumbai,Ahmedabad,FedEx,1681,Clear,2026-05-25,2026-05-27,2026-05-31,4,Low
+SHP0439,HP,Hyderabad,Bengaluru,DHL,655,Rain,2026-02-27,2026-03-02,2026-03-02,0,Low
+SHP0440,HP,Chennai,Jaipur,UPS,1994,Storm,2026-02-23,2026-02-26,2026-03-03,5,Low
+SHP0441,Dell,Delhi,Ahmedabad,Delhivery,920,Fog,2026-04-01,2026-04-05,2026-04-09,4,Medium
+SHP0442,HP,Chennai,Jaipur,Delhivery,1487,Clear,2026-04-01,2026-04-04,2026-04-08,4,Low
+SHP0443,Dell,Kolkata,Ahmedabad,DHL,1530,Clear,2026-06-21,2026-06-26,2026-07-01,5,Medium
+SHP0444,Lenovo,Mumbai,Lucknow,UPS,2479,Clear,2026-01-11,2026-01-13,2026-01-14,1,Low
+SHP0445,Apple,Kolkata,Bengaluru,UPS,552,Rain,2026-05-21,2026-05-23,2026-05-24,1,High
+SHP0446,Dell,Chennai,Pune,Blue Dart,1660,Clear,2026-05-22,2026-05-24,2026-05-29,5,Medium
+SHP0447,Lenovo,Mumbai,Jaipur,DHL,895,Storm,2026-02-28,2026-03-05,2026-03-09,4,Low
+SHP0448,Asus,Mumbai,Lucknow,UPS,875,Storm,2026-01-18,2026-01-21,2026-01-24,3,High
+SHP0449,Dell,Delhi,Lucknow,DHL,1557,Storm,2026-01-24,2026-01-31,2026-02-02,2,Medium
+SHP0450,HP,Hyderabad,Bengaluru,Delhivery,1793,Storm,2026-04-07,2026-04-13,2026-04-14,1,Low
+SHP0451,Sony,Hyderabad,Bengaluru,Blue Dart,1751,Rain,2026-04-04,2026-04-07,2026-04-09,2,Low
+SHP0452,Dell,Hyderabad,Pune,Delhivery,561,Rain,2026-01-09,2026-01-15,2026-01-20,5,High
+SHP0453,Apple,Delhi,Pune,Delhivery,722,Rain,2026-04-10,2026-04-13,2026-04-14,1,Medium
+SHP0454,Lenovo,Hyderabad,Lucknow,UPS,2262,Storm,2026-02-26,2026-03-04,2026-03-06,2,Medium
+SHP0455,Apple,Delhi,Bengaluru,Delhivery,1276,Fog,2026-06-28,2026-07-01,2026-07-06,5,High
+SHP0456,HP,Delhi,Pune,FedEx,2244,Rain,2026-03-20,2026-03-22,2026-03-22,0,High
+SHP0457,Dell,Chennai,Lucknow,Delhivery,1986,Rain,2026-04-28,2026-05-03,2026-05-06,3,High
+SHP0458,Samsung,Delhi,Bengaluru,UPS,1516,Fog,2026-05-04,2026-05-11,2026-05-11,0,Medium
+SHP0459,Apple,Chennai,Bengaluru,Delhivery,1472,Storm,2026-04-22,2026-04-28,2026-05-02,4,Low
+SHP0460,HP,Kolkata,Jaipur,Delhivery,502,Clear,2026-04-20,2026-04-24,2026-04-27,3,Medium
+SHP0461,Dell,Delhi,Jaipur,Blue Dart,1212,Storm,2026-05-13,2026-05-18,2026-05-19,1,Low
+SHP0462,LG,Kolkata,Jaipur,FedEx,1662,Rain,2026-01-18,2026-01-24,2026-01-24,0,Medium
+SHP0463,LG,Delhi,Ahmedabad,FedEx,496,Rain,2026-06-09,2026-06-13,2026-06-16,3,Medium
+SHP0464,Samsung,Delhi,Lucknow,FedEx,1348,Fog,2026-03-05,2026-03-11,2026-03-11,0,Low
+SHP0465,Dell,Hyderabad,Ahmedabad,Delhivery,1668,Clear,2026-04-20,2026-04-24,2026-04-28,4,High
+SHP0466,HP,Mumbai,Jaipur,UPS,1917,Fog,2026-06-20,2026-06-27,2026-07-01,4,Medium
+SHP0467,Apple,Delhi,Lucknow,Blue Dart,1642,Storm,2026-06-09,2026-06-15,2026-06-16,1,Medium
+SHP0468,Samsung,Mumbai,Ahmedabad,FedEx,446,Rain,2026-05-27,2026-06-01,2026-06-03,2,High
+SHP0469,HP,Delhi,Lucknow,Delhivery,1321,Fog,2026-05-31,2026-06-07,2026-06-11,4,High
+SHP0470,Sony,Mumbai,Lucknow,DHL,464,Rain,2026-06-28,2026-07-01,2026-07-06,5,High
+SHP0471,HP,Delhi,Bengaluru,FedEx,388,Clear,2026-05-31,2026-06-05,2026-06-06,1,Medium
+SHP0472,Asus,Delhi,Jaipur,DHL,1013,Storm,2026-01-28,2026-02-01,2026-02-05,4,Medium
+SHP0473,Asus,Mumbai,Ahmedabad,FedEx,2452,Rain,2026-03-12,2026-03-16,2026-03-21,5,High
+SHP0474,Lenovo,Hyderabad,Bengaluru,FedEx,1227,Fog,2026-01-09,2026-01-12,2026-01-17,5,Medium
+SHP0475,LG,Hyderabad,Bengaluru,UPS,974,Rain,2026-04-27,2026-04-29,2026-05-02,3,High
+SHP0476,Apple,Kolkata,Bengaluru,Blue Dart,1525,Storm,2026-03-31,2026-04-06,2026-04-10,4,Medium
+SHP0477,Dell,Delhi,Jaipur,FedEx,1723,Storm,2026-06-01,2026-06-05,2026-06-07,2,Low
+SHP0478,Samsung,Mumbai,Pune,DHL,2351,Fog,2026-03-05,2026-03-07,2026-03-07,0,Low
+SHP0479,Apple,Kolkata,Lucknow,DHL,1785,Rain,2026-06-18,2026-06-21,2026-06-23,2,Low
+SHP0480,Sony,Kolkata,Ahmedabad,UPS,2382,Storm,2026-01-19,2026-01-23,2026-01-25,2,Medium
+SHP0481,Asus,Mumbai,Ahmedabad,Blue Dart,649,Clear,2026-03-20,2026-03-25,2026-03-26,1,Medium
+SHP0482,LG,Hyderabad,Bengaluru,UPS,344,Fog,2026-04-13,2026-04-16,2026-04-20,4,Low
+SHP0483,Sony,Mumbai,Jaipur,FedEx,462,Fog,2026-01-25,2026-01-28,2026-02-01,4,High
+SHP0484,Lenovo,Kolkata,Bengaluru,Delhivery,1181,Storm,2026-05-22,2026-05-27,2026-05-29,2,Medium
+SHP0485,Sony,Chennai,Bengaluru,UPS,2226,Clear,2026-06-07,2026-06-14,2026-06-18,4,High
+SHP0486,Apple,Hyderabad,Ahmedabad,UPS,1559,Storm,2026-05-18,2026-05-20,2026-05-23,3,High
+SHP0487,Dell,Hyderabad,Ahmedabad,DHL,190,Rain,2026-05-16,2026-05-18,2026-05-23,5,Medium
+SHP0488,LG,Chennai,Pune,Delhivery,1956,Clear,2026-03-19,2026-03-25,2026-03-26,1,High
+SHP0489,Lenovo,Hyderabad,Bengaluru,Delhivery,2467,Storm,2026-03-14,2026-03-16,2026-03-18,2,Medium
+SHP0490,Apple,Hyderabad,Jaipur,Blue Dart,1566,Fog,2026-06-11,2026-06-17,2026-06-18,1,Low
+SHP0491,Lenovo,Kolkata,Pune,FedEx,672,Rain,2026-02-06,2026-02-10,2026-02-12,2,Medium
+SHP0492,Lenovo,Chennai,Lucknow,Blue Dart,2346,Clear,2026-01-19,2026-01-22,2026-01-24,2,Low
+SHP0493,HP,Hyderabad,Lucknow,Delhivery,475,Storm,2026-01-01,2026-01-04,2026-01-09,5,Medium
+SHP0494,Sony,Chennai,Jaipur,FedEx,1891,Fog,2026-04-20,2026-04-25,2026-04-25,0,Medium
+SHP0495,Sony,Kolkata,Lucknow,FedEx,2152,Clear,2026-01-21,2026-01-26,2026-01-31,5,High
+SHP0496,Apple,Delhi,Lucknow,Delhivery,956,Storm,2026-03-02,2026-03-05,2026-03-05,0,Low
+SHP0497,Sony,Delhi,Ahmedabad,DHL,1939,Clear,2026-02-21,2026-02-23,2026-02-23,0,High
+SHP0498,Sony,Hyderabad,Pune,UPS,2152,Storm,2026-02-11,2026-02-14,2026-02-16,2,High
+SHP0499,Lenovo,Delhi,Bengaluru,Delhivery,1272,Rain,2026-03-11,2026-03-17,2026-03-22,5,Low
+SHP0500,Asus,Delhi,Lucknow,UPS,2392,Rain,2026-03-24,2026-03-26,2026-03-27,1,Medium
+SHP0501,Asus,Delhi,Bengaluru,FedEx,646,Clear,2026-05-11,2026-05-17,2026-05-22,5,Medium
+SHP0502,LG,Delhi,Bengaluru,Delhivery,463,Storm,2026-04-17,2026-04-24,2026-04-26,2,Low
+SHP0503,Samsung,Mumbai,Lucknow,Blue Dart,2361,Rain,2026-03-22,2026-03-26,2026-03-30,4,Medium
+SHP0504,Sony,Kolkata,Pune,FedEx,532,Rain,2026-03-30,2026-04-06,2026-04-07,1,High
+SHP0505,Asus,Mumbai,Jaipur,Delhivery,2094,Storm,2026-05-09,2026-05-11,2026-05-13,2,Medium
+SHP0506,LG,Chennai,Ahmedabad,UPS,253,Storm,2026-04-13,2026-04-15,2026-04-16,1,Medium
+SHP0507,Sony,Chennai,Pune,DHL,2203,Rain,2026-04-09,2026-04-11,2026-04-15,4,Low
+SHP0508,Apple,Hyderabad,Ahmedabad,Blue Dart,332,Clear,2026-02-27,2026-03-06,2026-03-10,4,Medium
+SHP0509,Sony,Mumbai,Bengaluru,Delhivery,1846,Clear,2026-01-23,2026-01-26,2026-01-31,5,High
+SHP0510,LG,Kolkata,Pune,Blue Dart,351,Clear,2026-03-05,2026-03-11,2026-03-11,0,High
+SHP0511,Lenovo,Kolkata,Ahmedabad,UPS,1526,Fog,2026-01-08,2026-01-11,2026-01-13,2,High
+SHP0512,HP,Kolkata,Bengaluru,Blue Dart,767,Storm,2026-03-19,2026-03-21,2026-03-23,2,Low
+SHP0513,LG,Kolkata,Lucknow,DHL,1852,Fog,2026-01-17,2026-01-22,2026-01-23,1,Low
+SHP0514,Asus,Kolkata,Ahmedabad,Blue Dart,1022,Fog,2026-02-24,2026-03-03,2026-03-08,5,Medium
+SHP0515,Sony,Kolkata,Pune,Delhivery,534,Storm,2026-05-02,2026-05-07,2026-05-09,2,Low
+SHP0516,Dell,Chennai,Jaipur,Delhivery,1320,Storm,2026-03-14,2026-03-16,2026-03-19,3,Low
+SHP0517,LG,Chennai,Jaipur,Delhivery,164,Clear,2026-03-18,2026-03-21,2026-03-21,0,Low
+SHP0518,Sony,Hyderabad,Ahmedabad,Blue Dart,714,Fog,2026-01-14,2026-01-17,2026-01-20,3,Medium
+SHP0519,HP,Delhi,Lucknow,Delhivery,2146,Fog,2026-02-15,2026-02-19,2026-02-23,4,High
+SHP0520,Samsung,Chennai,Pune,UPS,449,Fog,2026-01-06,2026-01-12,2026-01-15,3,Medium
+SHP0521,Lenovo,Hyderabad,Pune,Delhivery,1809,Storm,2026-01-03,2026-01-10,2026-01-14,4,Low
+SHP0522,Sony,Delhi,Lucknow,Delhivery,2344,Rain,2026-05-06,2026-05-12,2026-05-17,5,Low
+SHP0523,LG,Mumbai,Bengaluru,FedEx,2452,Clear,2026-04-24,2026-04-26,2026-04-29,3,Low
+SHP0524,Sony,Chennai,Pune,DHL,2209,Clear,2026-06-18,2026-06-23,2026-06-26,3,Low
+SHP0525,LG,Chennai,Lucknow,DHL,2421,Storm,2026-01-01,2026-01-05,2026-01-10,5,Low
+SHP0526,Apple,Mumbai,Pune,DHL,1260,Rain,2026-05-04,2026-05-10,2026-05-13,3,Medium
+SHP0527,Samsung,Chennai,Lucknow,DHL,1846,Storm,2026-01-06,2026-01-09,2026-01-14,5,Medium
+SHP0528,HP,Mumbai,Pune,Delhivery,823,Fog,2026-05-21,2026-05-24,2026-05-26,2,High
+SHP0529,Dell,Chennai,Lucknow,UPS,1693,Rain,2026-04-12,2026-04-19,2026-04-19,0,High
+SHP0530,LG,Kolkata,Lucknow,Delhivery,392,Clear,2026-05-04,2026-05-06,2026-05-09,3,Medium
+SHP0531,Dell,Mumbai,Pune,FedEx,2141,Storm,2026-03-20,2026-03-22,2026-03-25,3,Low
+SHP0532,Lenovo,Delhi,Ahmedabad,UPS,368,Rain,2026-02-04,2026-02-06,2026-02-11,5,High
+SHP0533,LG,Hyderabad,Jaipur,UPS,1926,Rain,2026-05-18,2026-05-21,2026-05-23,2,Low
+SHP0534,Asus,Chennai,Lucknow,FedEx,305,Storm,2026-01-16,2026-01-23,2026-01-27,4,High
+SHP0535,LG,Kolkata,Jaipur,Delhivery,1256,Fog,2026-01-21,2026-01-28,2026-02-02,5,Medium
+SHP0536,HP,Hyderabad,Ahmedabad,Delhivery,1513,Storm,2026-04-27,2026-04-29,2026-05-04,5,Medium
+SHP0537,Sony,Kolkata,Jaipur,DHL,992,Fog,2026-06-30,2026-07-02,2026-07-02,0,Low
+SHP0538,Lenovo,Mumbai,Lucknow,Blue Dart,1150,Fog,2026-01-01,2026-01-05,2026-01-07,2,Low
+SHP0539,Dell,Kolkata,Jaipur,DHL,858,Storm,2026-05-27,2026-05-31,2026-06-03,3,Medium
+SHP0540,HP,Kolkata,Bengaluru,FedEx,490,Fog,2026-06-02,2026-06-07,2026-06-09,2,Low
+SHP0541,Samsung,Chennai,Jaipur,Blue Dart,339,Fog,2026-02-10,2026-02-13,2026-02-15,2,Low
+SHP0542,Sony,Chennai,Bengaluru,Blue Dart,738,Rain,2026-06-16,2026-06-22,2026-06-25,3,High
+SHP0543,Apple,Hyderabad,Pune,Blue Dart,130,Clear,2026-03-21,2026-03-28,2026-03-28,0,Medium
+SHP0544,Lenovo,Kolkata,Pune,Delhivery,2032,Fog,2026-04-25,2026-04-29,2026-05-04,5,Medium
+SHP0545,HP,Delhi,Ahmedabad,UPS,460,Rain,2026-04-21,2026-04-28,2026-05-02,4,Medium
+SHP0546,Dell,Hyderabad,Jaipur,Delhivery,1883,Clear,2026-03-30,2026-04-04,2026-04-04,0,Low
+SHP0547,Dell,Kolkata,Pune,Delhivery,1183,Fog,2026-04-01,2026-04-04,2026-04-08,4,Low
+SHP0548,Dell,Kolkata,Jaipur,Blue Dart,132,Storm,2026-01-05,2026-01-11,2026-01-13,2,Medium
+SHP0549,Lenovo,Mumbai,Jaipur,Blue Dart,1422,Storm,2026-04-18,2026-04-23,2026-04-23,0,Low
+SHP0550,Lenovo,Kolkata,Pune,UPS,1711,Fog,2026-05-16,2026-05-19,2026-05-23,4,Medium
+SHP0551,Dell,Delhi,Pune,Delhivery,1994,Clear,2026-04-04,2026-04-07,2026-04-09,2,Medium
+SHP0552,LG,Kolkata,Jaipur,Blue Dart,2260,Storm,2026-03-19,2026-03-22,2026-03-27,5,Medium
+SHP0553,Dell,Delhi,Bengaluru,DHL,1123,Fog,2026-05-08,2026-05-14,2026-05-14,0,High
+SHP0554,Dell,Hyderabad,Ahmedabad,FedEx,151,Fog,2026-01-17,2026-01-22,2026-01-23,1,Low
+SHP0555,Lenovo,Kolkata,Jaipur,Delhivery,423,Clear,2026-05-03,2026-05-09,2026-05-13,4,Medium
+SHP0556,HP,Kolkata,Bengaluru,DHL,263,Fog,2026-01-21,2026-01-23,2026-01-23,0,High
+SHP0557,Lenovo,Mumbai,Jaipur,FedEx,1595,Fog,2026-05-22,2026-05-28,2026-06-02,5,Low
+SHP0558,Dell,Mumbai,Jaipur,DHL,373,Rain,2026-05-31,2026-06-04,2026-06-08,4,High
+SHP0559,Asus,Kolkata,Ahmedabad,Delhivery,847,Clear,2026-01-07,2026-01-11,2026-01-13,2,Low
+SHP0560,Lenovo,Delhi,Jaipur,DHL,1586,Rain,2026-05-05,2026-05-12,2026-05-13,1,Low
+SHP0561,LG,Mumbai,Lucknow,UPS,797,Clear,2026-04-05,2026-04-07,2026-04-10,3,High
+SHP0562,Samsung,Hyderabad,Lucknow,UPS,1773,Storm,2026-01-16,2026-01-18,2026-01-20,2,Low
+SHP0563,Asus,Hyderabad,Lucknow,Delhivery,646,Fog,2026-05-24,2026-05-28,2026-06-02,5,High
+SHP0564,Lenovo,Hyderabad,Bengaluru,Blue Dart,509,Clear,2026-05-28,2026-05-30,2026-05-31,1,High
+SHP0565,HP,Hyderabad,Bengaluru,Blue Dart,2010,Rain,2026-01-26,2026-01-30,2026-02-01,2,High
+SHP0566,Dell,Hyderabad,Jaipur,DHL,2363,Rain,2026-05-18,2026-05-20,2026-05-22,2,Medium
+SHP0567,Dell,Delhi,Pune,Delhivery,411,Storm,2026-06-26,2026-07-02,2026-07-03,1,Medium
+SHP0568,Asus,Hyderabad,Bengaluru,UPS,1151,Fog,2026-06-24,2026-07-01,2026-07-04,3,Medium
+SHP0569,LG,Hyderabad,Lucknow,Delhivery,1390,Storm,2026-06-04,2026-06-07,2026-06-07,0,Low
+SHP0570,Apple,Chennai,Ahmedabad,Blue Dart,435,Rain,2026-06-13,2026-06-15,2026-06-15,0,Medium
+SHP0571,Asus,Delhi,Pune,UPS,418,Clear,2026-05-11,2026-05-14,2026-05-16,2,High
+SHP0572,Samsung,Hyderabad,Bengaluru,FedEx,1072,Fog,2026-05-07,2026-05-11,2026-05-16,5,Medium
+SHP0573,HP,Delhi,Ahmedabad,UPS,130,Fog,2026-03-28,2026-03-30,2026-04-01,2,Low
+SHP0574,Dell,Delhi,Jaipur,Blue Dart,2074,Storm,2026-03-16,2026-03-22,2026-03-22,0,Low
+SHP0575,Lenovo,Hyderabad,Bengaluru,FedEx,1318,Rain,2026-05-13,2026-05-17,2026-05-18,1,High
+SHP0576,Dell,Hyderabad,Lucknow,Blue Dart,2274,Storm,2026-04-29,2026-05-03,2026-05-08,5,Medium
+SHP0577,Sony,Kolkata,Ahmedabad,UPS,2473,Storm,2026-04-27,2026-05-04,2026-05-09,5,Low
+SHP0578,Lenovo,Delhi,Bengaluru,UPS,1705,Clear,2026-05-28,2026-06-04,2026-06-08,4,Medium
+SHP0579,LG,Chennai,Ahmedabad,FedEx,671,Storm,2026-02-05,2026-02-09,2026-02-12,3,Low
+SHP0580,Dell,Chennai,Bengaluru,FedEx,2016,Fog,2026-06-02,2026-06-06,2026-06-06,0,Low
+SHP0581,Samsung,Delhi,Ahmedabad,Blue Dart,2154,Fog,2026-01-28,2026-02-03,2026-02-07,4,Medium
+SHP0582,Apple,Chennai,Pune,Blue Dart,1229,Rain,2026-02-01,2026-02-03,2026-02-05,2,High
+SHP0583,Lenovo,Hyderabad,Jaipur,Delhivery,1089,Clear,2026-04-24,2026-04-26,2026-04-30,4,Medium
+SHP0584,Apple,Hyderabad,Bengaluru,Delhivery,876,Fog,2026-06-30,2026-07-07,2026-07-10,3,Medium
+SHP0585,Samsung,Chennai,Bengaluru,Blue Dart,895,Rain,2026-02-10,2026-02-13,2026-02-13,0,High
+SHP0586,Apple,Hyderabad,Ahmedabad,UPS,2268,Clear,2026-01-08,2026-01-14,2026-01-14,0,Low
+SHP0587,LG,Chennai,Lucknow,Delhivery,461,Rain,2026-06-12,2026-06-16,2026-06-21,5,High
+SHP0588,Lenovo,Delhi,Lucknow,Delhivery,2158,Clear,2026-02-21,2026-02-24,2026-02-25,1,Medium
+SHP0589,Dell,Mumbai,Jaipur,Blue Dart,1197,Storm,2026-03-13,2026-03-15,2026-03-16,1,Low
+SHP0590,Asus,Hyderabad,Lucknow,Blue Dart,1512,Storm,2026-03-10,2026-03-12,2026-03-12,0,Low
+SHP0591,Samsung,Hyderabad,Bengaluru,UPS,944,Clear,2026-06-22,2026-06-28,2026-07-01,3,High
+SHP0592,HP,Chennai,Bengaluru,Blue Dart,816,Rain,2026-02-20,2026-02-27,2026-03-04,5,Medium
+SHP0593,HP,Hyderabad,Bengaluru,UPS,1240,Storm,2026-01-30,2026-02-05,2026-02-08,3,Medium
+SHP0594,Samsung,Kolkata,Bengaluru,DHL,435,Fog,2026-02-15,2026-02-22,2026-02-23,1,Low
+SHP0595,Apple,Hyderabad,Pune,Blue Dart,1051,Rain,2026-01-05,2026-01-07,2026-01-10,3,High
+SHP0596,Asus,Chennai,Jaipur,UPS,1293,Rain,2026-03-28,2026-04-03,2026-04-06,3,Low
+SHP0597,Asus,Chennai,Pune,UPS,1593,Clear,2026-03-04,2026-03-10,2026-03-12,2,Medium
+SHP0598,Lenovo,Mumbai,Jaipur,Blue Dart,909,Storm,2026-01-19,2026-01-26,2026-01-28,2,Low
+SHP0599,Asus,Hyderabad,Bengaluru,DHL,535,Clear,2026-05-11,2026-05-16,2026-05-21,5,High
+SHP0600,Dell,Mumbai,Lucknow,UPS,169,Fog,2026-05-21,2026-05-24,2026-05-26,2,High
+SHP0601,Dell,Mumbai,Ahmedabad,DHL,1097,Storm,2026-06-02,2026-06-07,2026-06-08,1,Low
+SHP0602,Apple,Delhi,Pune,Blue Dart,1327,Fog,2026-04-29,2026-05-02,2026-05-05,3,High
+SHP0603,Asus,Chennai,Lucknow,Blue Dart,107,Storm,2026-02-09,2026-02-13,2026-02-16,3,Medium
+SHP0604,Dell,Chennai,Lucknow,FedEx,1692,Fog,2026-01-04,2026-01-10,2026-01-13,3,Medium
+SHP0605,Samsung,Hyderabad,Jaipur,UPS,411,Rain,2026-02-15,2026-02-20,2026-02-23,3,High
+SHP0606,LG,Chennai,Bengaluru,Delhivery,624,Fog,2026-04-30,2026-05-02,2026-05-05,3,Medium
+SHP0607,Samsung,Mumbai,Ahmedabad,Blue Dart,1100,Clear,2026-01-22,2026-01-28,2026-01-29,1,Medium
+SHP0608,Lenovo,Chennai,Jaipur,Delhivery,989,Fog,2026-04-26,2026-04-29,2026-04-30,1,Medium
+SHP0609,LG,Kolkata,Ahmedabad,Blue Dart,1726,Clear,2026-02-16,2026-02-23,2026-02-26,3,Medium
+SHP0610,Asus,Delhi,Ahmedabad,Delhivery,875,Clear,2026-06-14,2026-06-18,2026-06-22,4,Medium
+SHP0611,HP,Hyderabad,Jaipur,Delhivery,1378,Clear,2026-03-20,2026-03-26,2026-03-27,1,High
+SHP0612,Lenovo,Delhi,Lucknow,DHL,528,Clear,2026-01-29,2026-02-02,2026-02-02,0,Low
+SHP0613,HP,Chennai,Jaipur,UPS,966,Storm,2026-03-02,2026-03-09,2026-03-13,4,Low
+SHP0614,Sony,Hyderabad,Ahmedabad,UPS,251,Fog,2026-01-24,2026-01-31,2026-02-05,5,High
+SHP0615,HP,Kolkata,Lucknow,UPS,2194,Fog,2026-03-27,2026-03-30,2026-04-03,4,High
+SHP0616,Asus,Chennai,Bengaluru,FedEx,781,Fog,2026-01-22,2026-01-26,2026-01-31,5,Medium
+SHP0617,HP,Hyderabad,Bengaluru,Delhivery,408,Storm,2026-03-17,2026-03-21,2026-03-21,0,Medium
+SHP0618,Samsung,Mumbai,Lucknow,Blue Dart,2060,Clear,2026-05-14,2026-05-20,2026-05-20,0,Low
+SHP0619,Sony,Delhi,Bengaluru,UPS,1844,Fog,2026-01-25,2026-01-28,2026-01-30,2,Low
+SHP0620,Apple,Chennai,Bengaluru,DHL,2403,Fog,2026-04-30,2026-05-04,2026-05-06,2,Low
+SHP0621,LG,Kolkata,Pune,FedEx,1992,Clear,2026-05-05,2026-05-12,2026-05-17,5,Medium
+SHP0622,Apple,Mumbai,Ahmedabad,FedEx,370,Rain,2026-02-15,2026-02-20,2026-02-21,1,High
+SHP0623,Apple,Delhi,Jaipur,DHL,1126,Clear,2026-05-27,2026-05-30,2026-06-04,5,Medium
+SHP0624,Asus,Chennai,Lucknow,Blue Dart,2171,Clear,2026-06-21,2026-06-26,2026-06-30,4,Medium
+SHP0625,Sony,Hyderabad,Bengaluru,Delhivery,1785,Rain,2026-04-07,2026-04-14,2026-04-15,1,Medium
+SHP0626,Apple,Delhi,Jaipur,FedEx,1538,Rain,2026-01-27,2026-02-02,2026-02-02,0,Medium
+SHP0627,Sony,Chennai,Pune,Blue Dart,723,Rain,2026-01-05,2026-01-08,2026-01-11,3,Low
+SHP0628,Sony,Hyderabad,Pune,FedEx,772,Fog,2026-01-24,2026-01-26,2026-01-30,4,Low
+SHP0629,HP,Kolkata,Ahmedabad,DHL,2357,Storm,2026-01-24,2026-01-27,2026-01-29,2,Medium
+SHP0630,Sony,Chennai,Lucknow,Blue Dart,234,Rain,2026-04-25,2026-05-01,2026-05-01,0,Medium
+SHP0631,Lenovo,Hyderabad,Pune,FedEx,763,Storm,2026-03-20,2026-03-23,2026-03-26,3,Medium
+SHP0632,HP,Mumbai,Pune,Blue Dart,481,Clear,2026-01-30,2026-02-05,2026-02-06,1,Low
+SHP0633,Lenovo,Delhi,Pune,Delhivery,165,Storm,2026-03-08,2026-03-12,2026-03-16,4,High
+SHP0634,Lenovo,Mumbai,Pune,UPS,2233,Fog,2026-05-21,2026-05-25,2026-05-26,1,Medium
+SHP0635,Lenovo,Delhi,Lucknow,Delhivery,427,Fog,2026-03-04,2026-03-11,2026-03-13,2,Medium
+SHP0636,LG,Kolkata,Bengaluru,Delhivery,2239,Rain,2026-03-02,2026-03-08,2026-03-09,1,Low
+SHP0637,Samsung,Hyderabad,Ahmedabad,Delhivery,2191,Clear,2026-01-05,2026-01-12,2026-01-12,0,Medium
+SHP0638,HP,Delhi,Pune,FedEx,1891,Fog,2026-01-25,2026-01-28,2026-02-01,4,High
+SHP0639,Dell,Hyderabad,Lucknow,FedEx,2029,Fog,2026-06-17,2026-06-19,2026-06-23,4,Medium
+SHP0640,Dell,Mumbai,Jaipur,DHL,1607,Storm,2026-03-13,2026-03-18,2026-03-22,4,Low
+SHP0641,Dell,Chennai,Lucknow,Blue Dart,2232,Clear,2026-05-17,2026-05-20,2026-05-21,1,High
+SHP0642,LG,Hyderabad,Jaipur,DHL,2149,Storm,2026-06-16,2026-06-18,2026-06-23,5,High
+SHP0643,LG,Mumbai,Jaipur,Delhivery,2497,Fog,2026-06-04,2026-06-11,2026-06-12,1,High
+SHP0644,Apple,Chennai,Bengaluru,DHL,2154,Clear,2026-03-27,2026-03-29,2026-04-03,5,Low
+SHP0645,Apple,Kolkata,Jaipur,Delhivery,839,Clear,2026-03-28,2026-03-31,2026-04-04,4,Medium
+SHP0646,Samsung,Hyderabad,Lucknow,Blue Dart,292,Clear,2026-01-23,2026-01-25,2026-01-30,5,Medium
+SHP0647,HP,Mumbai,Pune,DHL,914,Rain,2026-06-10,2026-06-13,2026-06-14,1,Medium
+SHP0648,Lenovo,Delhi,Jaipur,DHL,1282,Rain,2026-03-11,2026-03-15,2026-03-18,3,Medium
+SHP0649,Apple,Mumbai,Ahmedabad,UPS,278,Fog,2026-01-06,2026-01-08,2026-01-11,3,High
+SHP0650,Dell,Chennai,Bengaluru,FedEx,765,Rain,2026-03-01,2026-03-06,2026-03-11,5,High
+SHP0651,LG,Delhi,Lucknow,Delhivery,1379,Rain,2026-03-13,2026-03-19,2026-03-24,5,Low
+SHP0652,LG,Delhi,Bengaluru,Blue Dart,2365,Storm,2026-02-19,2026-02-22,2026-02-27,5,High
+SHP0653,LG,Mumbai,Pune,Delhivery,2457,Storm,2026-02-12,2026-02-17,2026-02-21,4,Low
+SHP0654,LG,Delhi,Pune,UPS,1258,Storm,2026-06-30,2026-07-02,2026-07-07,5,Low
+SHP0655,Asus,Delhi,Jaipur,Delhivery,2103,Storm,2026-03-29,2026-04-02,2026-04-04,2,Low
+SHP0656,Lenovo,Delhi,Ahmedabad,Delhivery,1398,Fog,2026-03-16,2026-03-22,2026-03-27,5,Medium
+SHP0657,Lenovo,Delhi,Bengaluru,FedEx,1123,Fog,2026-03-03,2026-03-06,2026-03-07,1,Medium
+SHP0658,Sony,Delhi,Jaipur,DHL,1689,Clear,2026-01-16,2026-01-22,2026-01-27,5,Medium
+SHP0659,LG,Delhi,Jaipur,Delhivery,2123,Rain,2026-03-09,2026-03-13,2026-03-18,5,Medium
+SHP0660,Samsung,Hyderabad,Bengaluru,DHL,1522,Storm,2026-04-06,2026-04-12,2026-04-15,3,Low
+SHP0661,Apple,Chennai,Bengaluru,DHL,2495,Storm,2026-02-12,2026-02-18,2026-02-20,2,High
+SHP0662,HP,Kolkata,Lucknow,FedEx,1082,Storm,2026-06-26,2026-06-29,2026-07-02,3,High
+SHP0663,Sony,Chennai,Ahmedabad,Blue Dart,980,Rain,2026-05-31,2026-06-05,2026-06-09,4,Medium
+SHP0664,Asus,Kolkata,Pune,UPS,1601,Rain,2026-01-04,2026-01-09,2026-01-09,0,Low
+SHP0665,Lenovo,Mumbai,Bengaluru,UPS,516,Fog,2026-02-18,2026-02-25,2026-02-26,1,Medium
+SHP0666,HP,Kolkata,Pune,FedEx,1307,Clear,2026-01-30,2026-02-05,2026-02-05,0,High
+SHP0667,Lenovo,Hyderabad,Pune,Blue Dart,2473,Fog,2026-02-06,2026-02-13,2026-02-13,0,High
+SHP0668,Samsung,Chennai,Jaipur,Blue Dart,2004,Storm,2026-06-26,2026-06-29,2026-06-29,0,High
+SHP0669,LG,Hyderabad,Jaipur,Delhivery,1697,Clear,2026-04-09,2026-04-14,2026-04-18,4,High
+SHP0670,Sony,Delhi,Lucknow,FedEx,158,Rain,2026-06-27,2026-06-30,2026-07-01,1,Medium
+SHP0671,Asus,Hyderabad,Jaipur,DHL,1513,Fog,2026-01-10,2026-01-12,2026-01-14,2,Medium
+SHP0672,Dell,Mumbai,Jaipur,FedEx,1524,Fog,2026-03-09,2026-03-13,2026-03-16,3,Medium
+SHP0673,HP,Chennai,Lucknow,Blue Dart,1632,Fog,2026-04-14,2026-04-19,2026-04-21,2,Medium
+SHP0674,Sony,Chennai,Ahmedabad,Delhivery,1191,Clear,2026-01-08,2026-01-12,2026-01-15,3,High
+SHP0675,Samsung,Kolkata,Jaipur,FedEx,1931,Clear,2026-01-21,2026-01-23,2026-01-26,3,Low
+SHP0676,Apple,Kolkata,Bengaluru,DHL,570,Storm,2026-04-28,2026-05-04,2026-05-05,1,Low
+SHP0677,Sony,Hyderabad,Pune,FedEx,559,Storm,2026-01-27,2026-01-29,2026-02-02,4,High
+SHP0678,Asus,Mumbai,Ahmedabad,DHL,701,Clear,2026-03-28,2026-04-01,2026-04-03,2,High
+SHP0679,HP,Hyderabad,Lucknow,UPS,315,Clear,2026-06-03,2026-06-09,2026-06-12,3,High
+SHP0680,Sony,Kolkata,Lucknow,UPS,237,Rain,2026-02-03,2026-02-05,2026-02-09,4,High
+SHP0681,Lenovo,Delhi,Jaipur,DHL,150,Fog,2026-06-23,2026-06-29,2026-07-04,5,Medium
+SHP0682,Samsung,Delhi,Lucknow,DHL,2427,Rain,2026-01-14,2026-01-20,2026-01-21,1,Low
+SHP0683,Asus,Kolkata,Lucknow,Delhivery,2359,Clear,2026-06-02,2026-06-07,2026-06-09,2,High
+SHP0684,Apple,Chennai,Lucknow,DHL,782,Storm,2026-01-03,2026-01-07,2026-01-07,0,High
+SHP0685,Dell,Kolkata,Pune,FedEx,565,Storm,2026-06-06,2026-06-10,2026-06-13,3,High
+SHP0686,HP,Mumbai,Ahmedabad,Blue Dart,2311,Rain,2026-06-05,2026-06-09,2026-06-14,5,Medium
+SHP0687,Lenovo,Mumbai,Ahmedabad,DHL,755,Fog,2026-06-24,2026-06-27,2026-06-30,3,Low
+SHP0688,LG,Chennai,Lucknow,Blue Dart,2089,Rain,2026-04-25,2026-05-02,2026-05-02,0,Low
+SHP0689,Lenovo,Mumbai,Jaipur,DHL,1361,Clear,2026-06-21,2026-06-24,2026-06-25,1,Medium
+SHP0690,HP,Mumbai,Lucknow,DHL,560,Rain,2026-06-13,2026-06-16,2026-06-17,1,Low
+SHP0691,Sony,Kolkata,Lucknow,Blue Dart,545,Rain,2026-05-17,2026-05-19,2026-05-19,0,Low
+SHP0692,Lenovo,Mumbai,Ahmedabad,FedEx,117,Fog,2026-03-28,2026-04-03,2026-04-05,2,Low
+SHP0693,Sony,Mumbai,Ahmedabad,Blue Dart,578,Clear,2026-02-24,2026-03-01,2026-03-02,1,Medium
+SHP0694,Samsung,Delhi,Pune,FedEx,293,Rain,2026-02-15,2026-02-19,2026-02-20,1,Medium
+SHP0695,HP,Kolkata,Lucknow,DHL,1074,Rain,2026-02-14,2026-02-21,2026-02-23,2,High
+SHP0696,Dell,Chennai,Lucknow,FedEx,543,Clear,2026-05-07,2026-05-14,2026-05-17,3,Medium
+SHP0697,LG,Hyderabad,Lucknow,Delhivery,1232,Rain,2026-06-25,2026-07-02,2026-07-07,5,Low
+SHP0698,Sony,Kolkata,Pune,DHL,1688,Rain,2026-01-21,2026-01-28,2026-01-31,3,High
+SHP0699,Lenovo,Hyderabad,Jaipur,Delhivery,1068,Rain,2026-03-31,2026-04-02,2026-04-04,2,High
+SHP0700,Sony,Chennai,Bengaluru,Delhivery,2166,Storm,2026-06-06,2026-06-10,2026-06-12,2,Medium
+SHP0701,Samsung,Chennai,Jaipur,Delhivery,2477,Clear,2026-02-16,2026-02-18,2026-02-23,5,Low
+SHP0702,Samsung,Mumbai,Lucknow,Blue Dart,1098,Fog,2026-04-26,2026-04-28,2026-04-29,1,High
+SHP0703,Sony,Mumbai,Lucknow,FedEx,2429,Clear,2026-02-11,2026-02-14,2026-02-17,3,Medium
+SHP0704,Samsung,Kolkata,Lucknow,Blue Dart,2322,Clear,2026-04-06,2026-04-11,2026-04-14,3,Medium
+SHP0705,Asus,Hyderabad,Lucknow,DHL,100,Fog,2026-01-15,2026-01-17,2026-01-18,1,Low
+SHP0706,Apple,Hyderabad,Ahmedabad,Blue Dart,2089,Rain,2026-01-16,2026-01-19,2026-01-23,4,High
+SHP0707,LG,Delhi,Bengaluru,DHL,2411,Fog,2026-06-03,2026-06-06,2026-06-06,0,High
+SHP0708,Samsung,Chennai,Pune,FedEx,517,Fog,2026-03-31,2026-04-05,2026-04-09,4,Low
+SHP0709,Asus,Chennai,Jaipur,Delhivery,1192,Fog,2026-04-26,2026-05-02,2026-05-03,1,High
+SHP0710,Asus,Kolkata,Ahmedabad,Delhivery,1206,Rain,2026-05-06,2026-05-12,2026-05-13,1,Medium
+SHP0711,Dell,Delhi,Jaipur,Delhivery,741,Fog,2026-03-16,2026-03-22,2026-03-27,5,Medium
+SHP0712,Dell,Hyderabad,Jaipur,Blue Dart,1247,Fog,2026-03-24,2026-03-29,2026-04-02,4,Medium
+SHP0713,Sony,Delhi,Jaipur,Blue Dart,1657,Storm,2026-06-27,2026-07-04,2026-07-07,3,Low
+SHP0714,Lenovo,Kolkata,Pune,UPS,868,Storm,2026-01-24,2026-01-29,2026-02-03,5,Low
+SHP0715,LG,Hyderabad,Pune,Blue Dart,1777,Clear,2026-01-03,2026-01-10,2026-01-13,3,Low
+SHP0716,Lenovo,Mumbai,Lucknow,DHL,1556,Clear,2026-03-11,2026-03-15,2026-03-19,4,Medium
+SHP0717,HP,Kolkata,Ahmedabad,DHL,1669,Clear,2026-02-01,2026-02-06,2026-02-07,1,Medium
+SHP0718,Dell,Chennai,Pune,Delhivery,2015,Fog,2026-05-03,2026-05-06,2026-05-08,2,Medium
+SHP0719,Samsung,Kolkata,Pune,FedEx,149,Storm,2026-04-09,2026-04-15,2026-04-15,0,Medium
+SHP0720,Dell,Chennai,Jaipur,Blue Dart,1051,Rain,2026-05-28,2026-06-01,2026-06-06,5,High
+SHP0721,Apple,Mumbai,Bengaluru,Blue Dart,487,Storm,2026-01-10,2026-01-14,2026-01-19,5,Medium
+SHP0722,Samsung,Chennai,Pune,UPS,684,Storm,2026-06-14,2026-06-19,2026-06-21,2,Medium
+SHP0723,LG,Hyderabad,Pune,DHL,2058,Rain,2026-06-06,2026-06-11,2026-06-16,5,High
+SHP0724,Apple,Delhi,Pune,Delhivery,1238,Fog,2026-04-24,2026-05-01,2026-05-05,4,Medium
+SHP0725,Sony,Mumbai,Ahmedabad,DHL,1884,Storm,2026-03-29,2026-04-04,2026-04-05,1,Medium
+SHP0726,Dell,Kolkata,Lucknow,FedEx,504,Clear,2026-04-10,2026-04-13,2026-04-16,3,High
+SHP0727,Dell,Kolkata,Jaipur,FedEx,1481,Clear,2026-05-06,2026-05-13,2026-05-15,2,Low
+SHP0728,LG,Delhi,Jaipur,Delhivery,186,Clear,2026-01-19,2026-01-22,2026-01-25,3,High
+SHP0729,Sony,Delhi,Pune,DHL,689,Fog,2026-04-02,2026-04-09,2026-04-12,3,High
+SHP0730,Asus,Hyderabad,Jaipur,FedEx,2042,Fog,2026-05-19,2026-05-25,2026-05-28,3,Medium
+SHP0731,Samsung,Hyderabad,Jaipur,Delhivery,1554,Fog,2026-03-02,2026-03-08,2026-03-11,3,Medium
+SHP0732,Sony,Delhi,Ahmedabad,DHL,401,Fog,2026-01-09,2026-01-14,2026-01-15,1,High
+SHP0733,Lenovo,Chennai,Jaipur,Blue Dart,564,Rain,2026-04-26,2026-05-02,2026-05-02,0,Low
+SHP0734,Samsung,Hyderabad,Ahmedabad,FedEx,2398,Fog,2026-04-28,2026-05-04,2026-05-08,4,High
+SHP0735,Lenovo,Kolkata,Ahmedabad,Delhivery,1629,Clear,2026-06-14,2026-06-21,2026-06-22,1,Medium
+SHP0736,HP,Hyderabad,Ahmedabad,FedEx,2114,Rain,2026-06-01,2026-06-03,2026-06-06,3,Low
+SHP0737,Samsung,Delhi,Lucknow,Delhivery,962,Rain,2026-01-17,2026-01-24,2026-01-27,3,Medium
+SHP0738,Asus,Chennai,Ahmedabad,FedEx,1507,Clear,2026-06-26,2026-07-03,2026-07-05,2,Medium
+SHP0739,Apple,Chennai,Bengaluru,Delhivery,374,Fog,2026-03-03,2026-03-06,2026-03-10,4,Medium
+SHP0740,Dell,Hyderabad,Ahmedabad,FedEx,882,Fog,2026-01-13,2026-01-20,2026-01-25,5,Medium
+SHP0741,Sony,Delhi,Pune,Blue Dart,1460,Clear,2026-01-05,2026-01-08,2026-01-08,0,Low
+SHP0742,Samsung,Hyderabad,Jaipur,UPS,129,Rain,2026-01-04,2026-01-08,2026-01-13,5,High
+SHP0743,Sony,Hyderabad,Lucknow,UPS,2351,Fog,2026-02-26,2026-03-04,2026-03-05,1,Low
+SHP0744,Lenovo,Hyderabad,Pune,DHL,607,Storm,2026-04-27,2026-04-29,2026-05-01,2,Low
+SHP0745,Lenovo,Mumbai,Lucknow,Delhivery,1869,Storm,2026-06-04,2026-06-06,2026-06-06,0,Medium
+SHP0746,Samsung,Chennai,Bengaluru,DHL,821,Clear,2026-05-16,2026-05-21,2026-05-23,2,Low
+SHP0747,Dell,Mumbai,Jaipur,UPS,2093,Clear,2026-04-03,2026-04-09,2026-04-14,5,High
+SHP0748,HP,Chennai,Ahmedabad,DHL,2005,Clear,2026-03-04,2026-03-11,2026-03-11,0,Low
+SHP0749,Asus,Delhi,Lucknow,UPS,1816,Fog,2026-01-29,2026-02-04,2026-02-05,1,High
+SHP0750,Asus,Kolkata,Pune,Delhivery,914,Fog,2026-05-30,2026-06-04,2026-06-07,3,Low
+SHP0751,HP,Hyderabad,Jaipur,FedEx,814,Clear,2026-04-22,2026-04-24,2026-04-25,1,High
+SHP0752,Sony,Mumbai,Pune,Delhivery,2040,Rain,2026-05-08,2026-05-14,2026-05-15,1,Low
+SHP0753,Sony,Mumbai,Bengaluru,FedEx,2100,Fog,2026-04-17,2026-04-19,2026-04-20,1,High
+SHP0754,Dell,Delhi,Jaipur,UPS,800,Fog,2026-06-19,2026-06-25,2026-06-25,0,High
+SHP0755,Samsung,Mumbai,Pune,UPS,853,Clear,2026-05-03,2026-05-06,2026-05-07,1,High
+SHP0756,Apple,Chennai,Lucknow,DHL,1891,Rain,2026-05-28,2026-05-30,2026-06-03,4,Medium
+SHP0757,Sony,Kolkata,Bengaluru,Delhivery,2235,Clear,2026-05-24,2026-05-31,2026-06-03,3,High
+SHP0758,Sony,Kolkata,Lucknow,UPS,1319,Fog,2026-03-05,2026-03-09,2026-03-11,2,Medium
+SHP0759,LG,Kolkata,Bengaluru,Blue Dart,321,Clear,2026-03-15,2026-03-17,2026-03-17,0,Medium
+SHP0760,Dell,Hyderabad,Ahmedabad,Blue Dart,960,Fog,2026-06-08,2026-06-10,2026-06-11,1,High
+SHP0761,Dell,Chennai,Bengaluru,DHL,2350,Rain,2026-02-11,2026-02-16,2026-02-21,5,High
+SHP0762,Asus,Hyderabad,Ahmedabad,Blue Dart,185,Fog,2026-06-07,2026-06-14,2026-06-18,4,Low
+SHP0763,Sony,Mumbai,Bengaluru,Delhivery,193,Clear,2026-02-01,2026-02-05,2026-02-08,3,Low
+SHP0764,Samsung,Chennai,Ahmedabad,Delhivery,1842,Fog,2026-04-13,2026-04-15,2026-04-16,1,High
+SHP0765,Lenovo,Hyderabad,Bengaluru,Blue Dart,983,Rain,2026-06-07,2026-06-10,2026-06-14,4,High
+SHP0766,Lenovo,Hyderabad,Pune,DHL,515,Clear,2026-02-10,2026-02-15,2026-02-18,3,High
+SHP0767,Lenovo,Chennai,Lucknow,FedEx,2367,Clear,2026-06-12,2026-06-18,2026-06-19,1,High
+SHP0768,Apple,Mumbai,Bengaluru,Blue Dart,1963,Storm,2026-04-06,2026-04-12,2026-04-15,3,Medium
+SHP0769,LG,Chennai,Pune,Delhivery,574,Storm,2026-05-22,2026-05-26,2026-05-29,3,High
+SHP0770,Samsung,Hyderabad,Ahmedabad,DHL,1870,Clear,2026-04-18,2026-04-24,2026-04-26,2,Low
+SHP0771,Samsung,Delhi,Pune,DHL,494,Fog,2026-05-16,2026-05-18,2026-05-19,1,Low
+SHP0772,HP,Mumbai,Bengaluru,Blue Dart,1028,Clear,2026-05-17,2026-05-23,2026-05-24,1,Low
+SHP0773,Asus,Delhi,Lucknow,DHL,2322,Storm,2026-03-25,2026-03-30,2026-03-30,0,Low
+SHP0774,LG,Hyderabad,Ahmedabad,FedEx,2220,Clear,2026-04-11,2026-04-14,2026-04-15,1,Medium
+SHP0775,Sony,Hyderabad,Jaipur,Blue Dart,2077,Rain,2026-01-10,2026-01-15,2026-01-18,3,Low
+SHP0776,LG,Delhi,Lucknow,UPS,2274,Rain,2026-02-19,2026-02-21,2026-02-25,4,Low
+SHP0777,Asus,Kolkata,Ahmedabad,DHL,1724,Rain,2026-04-04,2026-04-07,2026-04-08,1,Low
+SHP0778,Apple,Mumbai,Bengaluru,Delhivery,390,Clear,2026-03-01,2026-03-03,2026-03-07,4,Low
+SHP0779,LG,Kolkata,Jaipur,FedEx,1945,Fog,2026-01-30,2026-02-03,2026-02-07,4,Low
+SHP0780,LG,Hyderabad,Lucknow,Delhivery,375,Fog,2026-05-10,2026-05-17,2026-05-19,2,High
+SHP0781,Lenovo,Kolkata,Jaipur,DHL,963,Fog,2026-03-12,2026-03-14,2026-03-17,3,Low
+SHP0782,Asus,Hyderabad,Pune,FedEx,1869,Rain,2026-03-13,2026-03-15,2026-03-20,5,High
+SHP0783,Asus,Mumbai,Ahmedabad,FedEx,2154,Fog,2026-04-08,2026-04-14,2026-04-19,5,High
+SHP0784,LG,Chennai,Pune,UPS,253,Rain,2026-02-25,2026-02-28,2026-03-02,2,Low
+SHP0785,HP,Hyderabad,Bengaluru,UPS,1122,Clear,2026-06-06,2026-06-11,2026-06-13,2,Low
+SHP0786,Sony,Delhi,Bengaluru,Blue Dart,964,Rain,2026-05-28,2026-06-02,2026-06-07,5,Low
+SHP0787,Samsung,Chennai,Jaipur,Delhivery,1183,Clear,2026-06-10,2026-06-14,2026-06-18,4,High
+SHP0788,Apple,Kolkata,Lucknow,Delhivery,307,Clear,2026-04-28,2026-05-05,2026-05-07,2,High
+SHP0789,HP,Chennai,Pune,FedEx,623,Rain,2026-03-14,2026-03-21,2026-03-22,1,Medium
+SHP0790,LG,Kolkata,Ahmedabad,Blue Dart,1751,Rain,2026-05-17,2026-05-23,2026-05-26,3,Low
+SHP0791,HP,Hyderabad,Jaipur,Delhivery,2130,Clear,2026-03-22,2026-03-27,2026-03-31,4,Low
+SHP0792,Lenovo,Delhi,Bengaluru,Delhivery,1737,Rain,2026-02-27,2026-03-05,2026-03-06,1,Low
+SHP0793,Lenovo,Mumbai,Bengaluru,Delhivery,1018,Fog,2026-06-07,2026-06-14,2026-06-17,3,Low
+SHP0794,Asus,Mumbai,Bengaluru,FedEx,738,Fog,2026-04-05,2026-04-10,2026-04-14,4,High
+SHP0795,Asus,Chennai,Lucknow,UPS,2158,Storm,2026-02-23,2026-02-28,2026-03-01,1,High
+SHP0796,Asus,Mumbai,Bengaluru,Blue Dart,1131,Storm,2026-02-18,2026-02-21,2026-02-23,2,High
+SHP0797,HP,Kolkata,Ahmedabad,Delhivery,2189,Storm,2026-01-27,2026-01-31,2026-02-04,4,Medium
+SHP0798,Asus,Hyderabad,Ahmedabad,DHL,1869,Clear,2026-02-18,2026-02-20,2026-02-20,0,Medium
+SHP0799,Samsung,Mumbai,Lucknow,Blue Dart,421,Storm,2026-05-09,2026-05-15,2026-05-20,5,High
+SHP0800,Samsung,Chennai,Ahmedabad,Blue Dart,1402,Storm,2026-06-09,2026-06-13,2026-06-15,2,High
+SHP0801,Sony,Kolkata,Bengaluru,Blue Dart,1035,Clear,2026-04-30,2026-05-05,2026-05-07,2,Low
+SHP0802,Apple,Delhi,Pune,Blue Dart,2221,Fog,2026-04-27,2026-05-04,2026-05-06,2,Medium
+SHP0803,Asus,Kolkata,Bengaluru,UPS,2265,Fog,2026-05-14,2026-05-20,2026-05-24,4,Medium
+SHP0804,Dell,Kolkata,Jaipur,Blue Dart,1013,Storm,2026-03-14,2026-03-18,2026-03-22,4,High
+SHP0805,Lenovo,Kolkata,Pune,Delhivery,1638,Rain,2026-05-18,2026-05-22,2026-05-23,1,High
+SHP0806,LG,Delhi,Pune,FedEx,1342,Clear,2026-03-26,2026-04-02,2026-04-04,2,Low
+SHP0807,Samsung,Kolkata,Ahmedabad,Blue Dart,1685,Fog,2026-02-18,2026-02-25,2026-03-01,4,Low
+SHP0808,Lenovo,Mumbai,Pune,Blue Dart,325,Storm,2026-06-02,2026-06-04,2026-06-05,1,Low
+SHP0809,Asus,Hyderabad,Lucknow,Blue Dart,188,Fog,2026-01-12,2026-01-19,2026-01-21,2,Medium
+SHP0810,LG,Mumbai,Bengaluru,Delhivery,937,Fog,2026-03-14,2026-03-19,2026-03-24,5,Medium
+SHP0811,Lenovo,Chennai,Ahmedabad,Delhivery,1769,Storm,2026-01-19,2026-01-22,2026-01-23,1,Low
+SHP0812,HP,Mumbai,Bengaluru,Blue Dart,322,Fog,2026-01-30,2026-02-02,2026-02-06,4,Medium
+SHP0813,Dell,Mumbai,Bengaluru,Blue Dart,1997,Rain,2026-06-04,2026-06-08,2026-06-09,1,Medium
+SHP0814,Apple,Delhi,Jaipur,DHL,841,Fog,2026-03-04,2026-03-06,2026-03-06,0,Low
+SHP0815,Asus,Delhi,Bengaluru,FedEx,2153,Storm,2026-04-18,2026-04-23,2026-04-27,4,Low
+SHP0816,Samsung,Hyderabad,Jaipur,FedEx,1364,Fog,2026-03-11,2026-03-13,2026-03-18,5,High
+SHP0817,HP,Kolkata,Pune,DHL,713,Rain,2026-03-15,2026-03-17,2026-03-21,4,High
+SHP0818,HP,Mumbai,Ahmedabad,UPS,1336,Storm,2026-04-21,2026-04-28,2026-04-29,1,Low
+SHP0819,Samsung,Mumbai,Lucknow,DHL,2432,Storm,2026-06-06,2026-06-08,2026-06-12,4,High
+SHP0820,Lenovo,Delhi,Lucknow,Blue Dart,651,Clear,2026-01-03,2026-01-10,2026-01-12,2,Medium
+SHP0821,Dell,Hyderabad,Lucknow,FedEx,1337,Storm,2026-01-19,2026-01-22,2026-01-25,3,High
+SHP0822,Apple,Kolkata,Jaipur,DHL,2456,Clear,2026-01-30,2026-02-01,2026-02-03,2,Medium
+SHP0823,Samsung,Mumbai,Lucknow,Delhivery,564,Fog,2026-06-27,2026-07-04,2026-07-06,2,Low
+SHP0824,Sony,Hyderabad,Lucknow,FedEx,1392,Rain,2026-01-21,2026-01-28,2026-02-01,4,Low
+SHP0825,Lenovo,Chennai,Pune,DHL,1353,Clear,2026-02-03,2026-02-07,2026-02-11,4,Medium
+SHP0826,HP,Mumbai,Pune,DHL,1482,Rain,2026-02-11,2026-02-15,2026-02-15,0,Medium
+SHP0827,Samsung,Delhi,Jaipur,Delhivery,159,Clear,2026-05-18,2026-05-21,2026-05-24,3,High
+SHP0828,HP,Kolkata,Pune,UPS,2088,Fog,2026-04-18,2026-04-22,2026-04-22,0,High
+SHP0829,Samsung,Kolkata,Jaipur,Delhivery,377,Clear,2026-05-07,2026-05-10,2026-05-11,1,Low
+SHP0830,Samsung,Delhi,Jaipur,Delhivery,2051,Fog,2026-05-12,2026-05-19,2026-05-22,3,Medium
+SHP0831,Dell,Mumbai,Ahmedabad,Blue Dart,2225,Rain,2026-03-17,2026-03-19,2026-03-22,3,High
+SHP0832,Dell,Delhi,Ahmedabad,UPS,126,Fog,2026-04-20,2026-04-25,2026-04-27,2,Low
+SHP0833,Asus,Kolkata,Lucknow,Blue Dart,1840,Clear,2026-06-13,2026-06-19,2026-06-22,3,Low
+SHP0834,Lenovo,Mumbai,Ahmedabad,Blue Dart,1174,Storm,2026-01-12,2026-01-16,2026-01-17,1,Low
+SHP0835,HP,Delhi,Pune,UPS,661,Rain,2026-01-13,2026-01-16,2026-01-17,1,High
+SHP0836,Apple,Kolkata,Jaipur,UPS,328,Storm,2026-01-09,2026-01-15,2026-01-19,4,High
+SHP0837,Lenovo,Kolkata,Pune,Blue Dart,287,Storm,2026-02-19,2026-02-21,2026-02-26,5,Medium
+SHP0838,LG,Kolkata,Pune,Delhivery,2149,Rain,2026-04-08,2026-04-15,2026-04-17,2,Low
+SHP0839,Sony,Delhi,Pune,Delhivery,2379,Fog,2026-01-01,2026-01-08,2026-01-08,0,Medium
+SHP0840,Sony,Hyderabad,Ahmedabad,FedEx,1401,Rain,2026-05-24,2026-05-31,2026-06-05,5,Low
+SHP0841,HP,Hyderabad,Jaipur,FedEx,143,Fog,2026-05-02,2026-05-09,2026-05-11,2,Medium
+SHP0842,Lenovo,Kolkata,Bengaluru,FedEx,765,Storm,2026-01-28,2026-02-04,2026-02-07,3,Low
+SHP0843,LG,Chennai,Lucknow,FedEx,2245,Clear,2026-06-05,2026-06-11,2026-06-13,2,Low
+SHP0844,Sony,Kolkata,Pune,FedEx,1151,Fog,2026-05-07,2026-05-09,2026-05-10,1,High
+SHP0845,LG,Kolkata,Bengaluru,FedEx,1552,Clear,2026-03-18,2026-03-22,2026-03-27,5,High
+SHP0846,Dell,Mumbai,Ahmedabad,DHL,1523,Fog,2026-01-11,2026-01-17,2026-01-18,1,Medium
+SHP0847,HP,Hyderabad,Bengaluru,Delhivery,1077,Clear,2026-06-11,2026-06-15,2026-06-20,5,High
+SHP0848,Dell,Kolkata,Ahmedabad,Delhivery,1565,Rain,2026-03-26,2026-03-29,2026-04-01,3,High
+SHP0849,Asus,Kolkata,Jaipur,UPS,364,Storm,2026-06-24,2026-06-26,2026-06-29,3,Medium
+SHP0850,Lenovo,Mumbai,Pune,Delhivery,2227,Storm,2026-03-17,2026-03-22,2026-03-25,3,Low
+SHP0851,Asus,Hyderabad,Lucknow,DHL,1091,Fog,2026-04-22,2026-04-28,2026-04-30,2,Low
+SHP0852,Lenovo,Kolkata,Ahmedabad,UPS,2373,Clear,2026-02-01,2026-02-06,2026-02-10,4,Medium
+SHP0853,Sony,Mumbai,Bengaluru,DHL,1256,Storm,2026-01-21,2026-01-23,2026-01-28,5,High
+SHP0854,HP,Mumbai,Pune,DHL,627,Fog,2026-06-09,2026-06-12,2026-06-15,3,Medium
+SHP0855,Sony,Chennai,Jaipur,UPS,951,Fog,2026-03-30,2026-04-06,2026-04-09,3,Low
+SHP0856,Apple,Hyderabad,Ahmedabad,Delhivery,1116,Clear,2026-05-28,2026-06-04,2026-06-09,5,Medium
+SHP0857,Dell,Mumbai,Pune,UPS,832,Fog,2026-06-29,2026-07-05,2026-07-07,2,Medium
+SHP0858,LG,Delhi,Jaipur,Blue Dart,1655,Clear,2026-02-09,2026-02-15,2026-02-15,0,Low
+SHP0859,LG,Hyderabad,Pune,Blue Dart,2411,Rain,2026-05-01,2026-05-06,2026-05-10,4,Medium
+SHP0860,Sony,Kolkata,Pune,DHL,664,Storm,2026-02-25,2026-03-04,2026-03-08,4,High
+SHP0861,LG,Hyderabad,Ahmedabad,FedEx,2476,Fog,2026-03-29,2026-04-02,2026-04-07,5,High
+SHP0862,Lenovo,Delhi,Lucknow,UPS,1464,Clear,2026-01-06,2026-01-09,2026-01-09,0,Medium
+SHP0863,Dell,Hyderabad,Pune,Blue Dart,762,Fog,2026-03-01,2026-03-03,2026-03-07,4,Low
+SHP0864,LG,Chennai,Lucknow,Blue Dart,2084,Rain,2026-01-29,2026-02-03,2026-02-08,5,High
+SHP0865,Dell,Chennai,Jaipur,DHL,177,Rain,2026-06-12,2026-06-17,2026-06-17,0,Low
+SHP0866,Lenovo,Chennai,Lucknow,DHL,1129,Clear,2026-05-17,2026-05-23,2026-05-25,2,Medium
+SHP0867,Lenovo,Delhi,Pune,DHL,261,Clear,2026-01-11,2026-01-16,2026-01-18,2,High
+SHP0868,Samsung,Chennai,Bengaluru,DHL,1142,Storm,2026-03-04,2026-03-07,2026-03-12,5,Low
+SHP0869,Sony,Kolkata,Bengaluru,UPS,1730,Storm,2026-03-04,2026-03-10,2026-03-11,1,Medium
+SHP0870,Dell,Delhi,Jaipur,FedEx,783,Fog,2026-04-16,2026-04-23,2026-04-25,2,High
+SHP0871,Samsung,Hyderabad,Jaipur,Delhivery,2300,Clear,2026-03-29,2026-04-05,2026-04-05,0,High
+SHP0872,HP,Delhi,Jaipur,Delhivery,1128,Rain,2026-05-26,2026-06-02,2026-06-03,1,Medium
+SHP0873,Dell,Kolkata,Jaipur,DHL,1912,Fog,2026-01-19,2026-01-22,2026-01-23,1,Low
+SHP0874,Samsung,Kolkata,Lucknow,UPS,2292,Fog,2026-06-04,2026-06-06,2026-06-10,4,Medium
+SHP0875,Apple,Delhi,Ahmedabad,UPS,809,Storm,2026-03-11,2026-03-15,2026-03-15,0,Low
+SHP0876,Dell,Kolkata,Lucknow,UPS,1861,Storm,2026-05-19,2026-05-26,2026-05-29,3,High
+SHP0877,Asus,Delhi,Pune,DHL,334,Clear,2026-06-23,2026-06-25,2026-06-30,5,Medium
+SHP0878,Lenovo,Delhi,Jaipur,Delhivery,2160,Rain,2026-05-21,2026-05-24,2026-05-28,4,Low
+SHP0879,LG,Mumbai,Jaipur,Delhivery,2392,Fog,2026-04-07,2026-04-09,2026-04-12,3,Medium
+SHP0880,Sony,Hyderabad,Ahmedabad,Blue Dart,1074,Storm,2026-06-27,2026-07-02,2026-07-02,0,High
+SHP0881,Apple,Delhi,Pune,FedEx,1843,Fog,2026-02-03,2026-02-09,2026-02-09,0,Medium
+SHP0882,Dell,Mumbai,Ahmedabad,FedEx,255,Fog,2026-02-06,2026-02-12,2026-02-16,4,Low
+SHP0883,Samsung,Kolkata,Jaipur,Delhivery,2176,Fog,2026-01-23,2026-01-28,2026-01-31,3,Low
+SHP0884,Samsung,Mumbai,Bengaluru,FedEx,1789,Storm,2026-06-14,2026-06-20,2026-06-24,4,Low
+SHP0885,Apple,Mumbai,Pune,Blue Dart,2138,Storm,2026-05-05,2026-05-10,2026-05-10,0,High
+SHP0886,Sony,Hyderabad,Pune,UPS,216,Fog,2026-05-25,2026-05-30,2026-05-31,1,High
+SHP0887,Apple,Chennai,Jaipur,DHL,2022,Rain,2026-05-30,2026-06-04,2026-06-04,0,High
+SHP0888,Apple,Delhi,Jaipur,Blue Dart,567,Storm,2026-01-07,2026-01-09,2026-01-12,3,Low
+SHP0889,Dell,Kolkata,Ahmedabad,UPS,1222,Fog,2026-02-06,2026-02-11,2026-02-11,0,High
+SHP0890,Samsung,Delhi,Jaipur,Delhivery,313,Storm,2026-04-25,2026-04-30,2026-05-04,4,Low
+SHP0891,HP,Hyderabad,Lucknow,FedEx,782,Storm,2026-06-22,2026-06-26,2026-06-26,0,Low
+SHP0892,LG,Kolkata,Bengaluru,Delhivery,1718,Clear,2026-01-03,2026-01-09,2026-01-11,2,High
+SHP0893,Apple,Hyderabad,Lucknow,UPS,1115,Storm,2026-01-02,2026-01-07,2026-01-12,5,High
+SHP0894,Asus,Kolkata,Pune,Blue Dart,356,Fog,2026-01-12,2026-01-18,2026-01-22,4,High
+SHP0895,Sony,Chennai,Pune,Blue Dart,190,Fog,2026-05-26,2026-06-01,2026-06-04,3,Low
+SHP0896,Lenovo,Mumbai,Ahmedabad,UPS,626,Rain,2026-03-10,2026-03-12,2026-03-16,4,Low
+SHP0897,Apple,Delhi,Ahmedabad,UPS,983,Fog,2026-04-05,2026-04-12,2026-04-14,2,Medium
+SHP0898,Lenovo,Kolkata,Bengaluru,Delhivery,2077,Fog,2026-01-29,2026-02-03,2026-02-06,3,Low
+SHP0899,Samsung,Delhi,Lucknow,UPS,1896,Storm,2026-04-06,2026-04-11,2026-04-16,5,High
+SHP0900,HP,Hyderabad,Bengaluru,Delhivery,633,Fog,2026-01-17,2026-01-20,2026-01-20,0,High
+SHP0901,Samsung,Delhi,Jaipur,Delhivery,311,Rain,2026-03-28,2026-04-04,2026-04-07,3,Medium
+SHP0902,Apple,Mumbai,Ahmedabad,UPS,1959,Rain,2026-01-21,2026-01-28,2026-01-28,0,Low
+SHP0903,HP,Chennai,Pune,Delhivery,1998,Clear,2026-04-12,2026-04-18,2026-04-22,4,High
+SHP0904,HP,Delhi,Pune,Blue Dart,1744,Rain,2026-05-30,2026-06-05,2026-06-10,5,Medium
+SHP0905,Lenovo,Hyderabad,Ahmedabad,FedEx,950,Rain,2026-01-03,2026-01-06,2026-01-06,0,Low
+SHP0906,Sony,Hyderabad,Pune,UPS,246,Storm,2026-05-26,2026-05-30,2026-06-01,2,High
+SHP0907,LG,Chennai,Ahmedabad,Delhivery,1877,Storm,2026-05-30,2026-06-02,2026-06-07,5,High
+SHP0908,Lenovo,Hyderabad,Jaipur,Delhivery,1752,Rain,2026-03-05,2026-03-08,2026-03-08,0,Medium
+SHP0909,Dell,Hyderabad,Jaipur,UPS,1541,Fog,2026-05-23,2026-05-27,2026-05-28,1,Low
+SHP0910,Samsung,Kolkata,Jaipur,UPS,830,Fog,2026-06-15,2026-06-18,2026-06-22,4,High
+SHP0911,Sony,Hyderabad,Lucknow,DHL,2182,Rain,2026-04-09,2026-04-15,2026-04-18,3,High
+SHP0912,Apple,Hyderabad,Pune,Delhivery,840,Clear,2026-06-20,2026-06-23,2026-06-25,2,High
+SHP0913,Asus,Delhi,Ahmedabad,FedEx,616,Clear,2026-02-21,2026-02-23,2026-02-26,3,High
+SHP0914,LG,Kolkata,Ahmedabad,DHL,2158,Rain,2026-04-28,2026-05-03,2026-05-05,2,Low
+SHP0915,Sony,Delhi,Pune,DHL,475,Rain,2026-05-05,2026-05-07,2026-05-10,3,High
+SHP0916,Dell,Delhi,Jaipur,DHL,523,Clear,2026-06-07,2026-06-13,2026-06-15,2,Low
+SHP0917,HP,Delhi,Jaipur,Blue Dart,1770,Clear,2026-01-13,2026-01-18,2026-01-19,1,Medium
+SHP0918,Asus,Delhi,Lucknow,Blue Dart,1486,Rain,2026-05-29,2026-06-01,2026-06-02,1,Medium
+SHP0919,Apple,Hyderabad,Bengaluru,Delhivery,1650,Rain,2026-05-19,2026-05-22,2026-05-27,5,Medium
+SHP0920,Apple,Delhi,Bengaluru,UPS,1251,Storm,2026-04-24,2026-05-01,2026-05-06,5,Medium
+SHP0921,Dell,Kolkata,Bengaluru,UPS,695,Storm,2026-05-10,2026-05-15,2026-05-16,1,High
+SHP0922,LG,Chennai,Bengaluru,DHL,1833,Rain,2026-06-06,2026-06-09,2026-06-14,5,Low
+SHP0923,Samsung,Hyderabad,Lucknow,Blue Dart,785,Storm,2026-06-21,2026-06-26,2026-07-01,5,High
+SHP0924,LG,Delhi,Ahmedabad,Blue Dart,628,Storm,2026-04-18,2026-04-23,2026-04-28,5,High
+SHP0925,Sony,Chennai,Jaipur,Blue Dart,1125,Storm,2026-01-23,2026-01-27,2026-02-01,5,High
+SHP0926,LG,Delhi,Ahmedabad,UPS,1901,Clear,2026-06-07,2026-06-13,2026-06-14,1,High
+SHP0927,HP,Kolkata,Ahmedabad,DHL,360,Clear,2026-03-29,2026-04-05,2026-04-05,0,High
+SHP0928,Asus,Hyderabad,Pune,Delhivery,1023,Storm,2026-05-06,2026-05-09,2026-05-11,2,Low
+SHP0929,HP,Chennai,Ahmedabad,Delhivery,809,Fog,2026-01-02,2026-01-05,2026-01-10,5,Low
+SHP0930,Samsung,Mumbai,Lucknow,FedEx,799,Clear,2026-03-25,2026-04-01,2026-04-06,5,Medium
+SHP0931,Lenovo,Delhi,Jaipur,Blue Dart,1522,Storm,2026-03-21,2026-03-28,2026-04-01,4,Medium
+SHP0932,HP,Hyderabad,Lucknow,Blue Dart,1615,Storm,2026-04-17,2026-04-20,2026-04-24,4,Low
+SHP0933,Apple,Kolkata,Bengaluru,UPS,664,Rain,2026-04-07,2026-04-10,2026-04-10,0,Medium
+SHP0934,Lenovo,Delhi,Jaipur,UPS,1210,Rain,2026-05-22,2026-05-26,2026-05-29,3,High
+SHP0935,Sony,Kolkata,Bengaluru,Blue Dart,1568,Clear,2026-03-14,2026-03-20,2026-03-21,1,Low
+SHP0936,Asus,Kolkata,Pune,DHL,1663,Fog,2026-06-23,2026-06-26,2026-06-29,3,Medium
+SHP0937,Sony,Hyderabad,Bengaluru,FedEx,1353,Storm,2026-06-08,2026-06-12,2026-06-15,3,Medium
+SHP0938,LG,Chennai,Lucknow,Blue Dart,877,Clear,2026-01-09,2026-01-12,2026-01-12,0,Low
+SHP0939,Asus,Mumbai,Bengaluru,UPS,328,Clear,2026-05-20,2026-05-23,2026-05-27,4,Medium
+SHP0940,Samsung,Hyderabad,Ahmedabad,FedEx,1170,Storm,2026-04-18,2026-04-21,2026-04-26,5,Medium
+SHP0941,Dell,Delhi,Pune,DHL,115,Rain,2026-06-23,2026-06-26,2026-06-30,4,Low
+SHP0942,Sony,Kolkata,Pune,UPS,870,Storm,2026-05-29,2026-06-01,2026-06-04,3,High
+SHP0943,Samsung,Chennai,Lucknow,FedEx,2227,Clear,2026-01-24,2026-01-26,2026-01-28,2,High
+SHP0944,Apple,Hyderabad,Bengaluru,Delhivery,1770,Rain,2026-03-12,2026-03-14,2026-03-15,1,Medium
+SHP0945,HP,Mumbai,Jaipur,FedEx,2236,Fog,2026-04-28,2026-05-04,2026-05-09,5,Low
+SHP0946,Asus,Hyderabad,Ahmedabad,UPS,2226,Storm,2026-03-16,2026-03-20,2026-03-23,3,Medium
+SHP0947,Lenovo,Kolkata,Lucknow,FedEx,400,Fog,2026-03-11,2026-03-15,2026-03-19,4,Low
+SHP0948,Sony,Hyderabad,Jaipur,FedEx,1938,Rain,2026-04-06,2026-04-10,2026-04-15,5,High
+SHP0949,Dell,Mumbai,Pune,Blue Dart,970,Fog,2026-04-22,2026-04-28,2026-05-02,4,High
+SHP0950,LG,Hyderabad,Pune,DHL,1560,Fog,2026-05-16,2026-05-23,2026-05-26,3,Low
+SHP0951,HP,Chennai,Pune,Blue Dart,2075,Storm,2026-03-10,2026-03-12,2026-03-15,3,Medium
+SHP0952,LG,Kolkata,Bengaluru,UPS,1310,Fog,2026-02-18,2026-02-21,2026-02-22,1,Medium
+SHP0953,Apple,Chennai,Pune,Delhivery,2288,Storm,2026-04-09,2026-04-15,2026-04-17,2,High
+SHP0954,Lenovo,Mumbai,Lucknow,Delhivery,2494,Clear,2026-05-17,2026-05-19,2026-05-20,1,High
+SHP0955,Dell,Mumbai,Lucknow,UPS,1437,Storm,2026-05-22,2026-05-26,2026-05-28,2,Low
+SHP0956,Dell,Mumbai,Jaipur,DHL,1437,Clear,2026-06-14,2026-06-16,2026-06-21,5,Low
+SHP0957,HP,Kolkata,Ahmedabad,FedEx,1653,Fog,2026-03-19,2026-03-26,2026-03-26,0,High
+SHP0958,Apple,Chennai,Bengaluru,DHL,1976,Clear,2026-03-09,2026-03-16,2026-03-17,1,High
+SHP0959,HP,Kolkata,Bengaluru,Delhivery,1488,Rain,2026-05-15,2026-05-18,2026-05-22,4,High
+SHP0960,Dell,Kolkata,Jaipur,Blue Dart,101,Storm,2026-04-08,2026-04-11,2026-04-16,5,Low
+SHP0961,Samsung,Hyderabad,Bengaluru,UPS,2242,Rain,2026-05-01,2026-05-07,2026-05-07,0,High
+SHP0962,Dell,Chennai,Pune,DHL,2010,Clear,2026-03-15,2026-03-20,2026-03-20,0,High
+SHP0963,Dell,Delhi,Lucknow,UPS,455,Rain,2026-06-03,2026-06-06,2026-06-10,4,Low
+SHP0964,Sony,Chennai,Jaipur,Blue Dart,1966,Fog,2026-01-24,2026-01-30,2026-02-01,2,High
+SHP0965,Sony,Delhi,Pune,Blue Dart,383,Fog,2026-01-06,2026-01-09,2026-01-11,2,Low
+SHP0966,LG,Delhi,Bengaluru,Delhivery,1077,Storm,2026-05-07,2026-05-09,2026-05-13,4,Low
+SHP0967,Samsung,Kolkata,Bengaluru,Delhivery,1588,Clear,2026-06-08,2026-06-14,2026-06-19,5,High
+SHP0968,Sony,Delhi,Jaipur,Blue Dart,258,Storm,2026-01-08,2026-01-14,2026-01-15,1,High
+SHP0969,Sony,Hyderabad,Bengaluru,Delhivery,285,Fog,2026-03-31,2026-04-02,2026-04-06,4,Low
+SHP0970,Sony,Delhi,Jaipur,FedEx,712,Clear,2026-03-29,2026-04-02,2026-04-02,0,Medium
+SHP0971,Lenovo,Mumbai,Bengaluru,Delhivery,1639,Rain,2026-02-10,2026-02-15,2026-02-18,3,Low
+SHP0972,LG,Kolkata,Jaipur,FedEx,837,Rain,2026-06-23,2026-06-29,2026-07-02,3,High
+SHP0973,Asus,Chennai,Ahmedabad,FedEx,2177,Rain,2026-03-29,2026-04-02,2026-04-07,5,High
+SHP0974,HP,Delhi,Jaipur,DHL,1416,Rain,2026-05-07,2026-05-11,2026-05-12,1,Medium
+SHP0975,Sony,Chennai,Pune,FedEx,1975,Clear,2026-05-15,2026-05-18,2026-05-21,3,High
+SHP0976,Samsung,Delhi,Jaipur,FedEx,1131,Clear,2026-04-27,2026-04-29,2026-05-01,2,High
+SHP0977,Sony,Chennai,Bengaluru,FedEx,993,Rain,2026-03-08,2026-03-15,2026-03-19,4,High
+SHP0978,Samsung,Chennai,Pune,Blue Dart,1612,Fog,2026-01-23,2026-01-28,2026-01-29,1,Medium
+SHP0979,Apple,Chennai,Pune,UPS,2118,Storm,2026-02-14,2026-02-20,2026-02-22,2,High
+SHP0980,LG,Hyderabad,Jaipur,Blue Dart,1672,Fog,2026-01-02,2026-01-06,2026-01-06,0,Low
+SHP0981,HP,Delhi,Bengaluru,UPS,584,Rain,2026-03-28,2026-04-04,2026-04-05,1,High
+SHP0982,Apple,Kolkata,Lucknow,FedEx,1068,Storm,2026-02-28,2026-03-04,2026-03-06,2,High
+SHP0983,Apple,Delhi,Pune,FedEx,857,Storm,2026-04-16,2026-04-23,2026-04-23,0,High
+SHP0984,Apple,Hyderabad,Pune,Blue Dart,523,Rain,2026-01-12,2026-01-16,2026-01-20,4,High
+SHP0985,Sony,Mumbai,Ahmedabad,Delhivery,599,Rain,2026-06-17,2026-06-24,2026-06-27,3,Medium
+SHP0986,Sony,Chennai,Lucknow,UPS,1189,Storm,2026-03-23,2026-03-29,2026-04-01,3,High
+SHP0987,Asus,Mumbai,Bengaluru,Delhivery,259,Clear,2026-02-18,2026-02-24,2026-02-28,4,Medium
+SHP0988,LG,Kolkata,Bengaluru,DHL,2101,Fog,2026-01-31,2026-02-02,2026-02-03,1,Medium
+SHP0989,LG,Chennai,Pune,DHL,1183,Clear,2026-06-26,2026-07-03,2026-07-08,5,High
+SHP0990,Samsung,Kolkata,Pune,Blue Dart,1744,Clear,2026-01-10,2026-01-15,2026-01-18,3,High
+SHP0991,LG,Chennai,Pune,UPS,1395,Rain,2026-03-30,2026-04-05,2026-04-09,4,High
+SHP0992,Sony,Hyderabad,Bengaluru,Blue Dart,756,Clear,2026-02-12,2026-02-17,2026-02-18,1,High
+SHP0993,Lenovo,Mumbai,Pune,DHL,1919,Clear,2026-02-18,2026-02-25,2026-03-02,5,Medium
+SHP0994,HP,Delhi,Bengaluru,FedEx,471,Clear,2026-02-24,2026-03-01,2026-03-06,5,High
+SHP0995,HP,Kolkata,Bengaluru,UPS,184,Storm,2026-06-19,2026-06-24,2026-06-24,0,High
+SHP0996,Dell,Delhi,Lucknow,Blue Dart,1908,Storm,2026-03-08,2026-03-14,2026-03-17,3,Low
+SHP0997,LG,Chennai,Ahmedabad,UPS,1757,Rain,2026-06-12,2026-06-14,2026-06-14,0,Low
+SHP0998,Dell,Mumbai,Ahmedabad,DHL,746,Rain,2026-03-03,2026-03-07,2026-03-10,3,High
+SHP0999,Asus,Hyderabad,Pune,Blue Dart,2073,Storm,2026-06-11,2026-06-14,2026-06-14,0,High
+SHP1000,Dell,Delhi,Bengaluru,Blue Dart,794,Rain,2026-06-21,2026-06-27,2026-06-30,3,Medium
