@@ -1,0 +1,501 @@
+Product_ID,Product_Name,Warehouse,Stock,Demand,Safety_Stock,Reorder_Level
+P0001,Keyboard,Mumbai,577,710,40,70
+P0002,Mouse,Chennai,887,422,86,116
+P0003,Laptop,Chennai,852,77,93,123
+P0004,Tablet,Bengaluru,200,213,29,59
+P0005,Laptop,Mumbai,862,205,71,101
+P0006,Printer,Hyderabad,185,459,26,56
+P0007,Smart Watch,Chennai,736,499,54,84
+P0008,Mouse,Bengaluru,258,593,21,51
+P0009,Monitor,Bengaluru,690,629,56,86
+P0010,Smart Watch,Hyderabad,127,513,39,69
+P0011,Tablet,Hyderabad,780,876,86,116
+P0012,Monitor,Chennai,894,427,55,85
+P0013,Laptop,Delhi,862,293,24,54
+P0014,Monitor,Bengaluru,240,103,85,115
+P0015,Monitor,Mumbai,95,319,38,68
+P0016,Mobile,Hyderabad,232,836,53,83
+P0017,Keyboard,Delhi,905,568,53,83
+P0018,Smart Watch,Chennai,536,503,93,123
+P0019,Keyboard,Chennai,355,842,47,77
+P0020,Tablet,Bengaluru,605,378,34,64
+P0021,Tablet,Hyderabad,836,492,79,109
+P0022,Smart Watch,Bengaluru,543,420,50,80
+P0023,Printer,Hyderabad,775,753,43,73
+P0024,Printer,Delhi,955,273,35,65
+P0025,Keyboard,Chennai,652,470,60,90
+P0026,Mouse,Hyderabad,724,475,22,52
+P0027,Laptop,Delhi,434,626,57,87
+P0028,Mouse,Mumbai,809,262,82,112
+P0029,Keyboard,Chennai,326,671,49,79
+P0030,Mouse,Bengaluru,426,418,41,71
+P0031,Mobile,Chennai,981,464,40,70
+P0032,Smart Watch,Chennai,326,594,55,85
+P0033,Printer,Mumbai,730,666,21,51
+P0034,Laptop,Chennai,854,387,85,115
+P0035,Keyboard,Mumbai,495,781,49,79
+P0036,Printer,Hyderabad,629,596,24,54
+P0037,Smart Watch,Hyderabad,241,521,84,114
+P0038,Mobile,Mumbai,193,566,84,114
+P0039,Printer,Delhi,157,107,56,86
+P0040,Tablet,Chennai,650,403,42,72
+P0041,Mobile,Chennai,300,542,100,130
+P0042,Keyboard,Delhi,544,75,54,84
+P0043,Monitor,Bengaluru,610,614,43,73
+P0044,Keyboard,Hyderabad,86,805,87,117
+P0045,Tablet,Bengaluru,176,818,70,100
+P0046,Tablet,Mumbai,954,474,31,61
+P0047,Monitor,Bengaluru,754,53,44,74
+P0048,Mobile,Mumbai,693,791,80,110
+P0049,Mouse,Mumbai,727,466,82,112
+P0050,Laptop,Delhi,967,351,59,89
+P0051,Smart Watch,Hyderabad,502,437,66,96
+P0052,Monitor,Mumbai,104,548,46,76
+P0053,Monitor,Delhi,524,240,83,113
+P0054,Mouse,Hyderabad,445,740,74,104
+P0055,Mobile,Bengaluru,895,581,59,89
+P0056,Monitor,Hyderabad,851,777,28,58
+P0057,Laptop,Hyderabad,418,709,94,124
+P0058,Monitor,Delhi,793,116,28,58
+P0059,Monitor,Hyderabad,140,559,22,52
+P0060,Monitor,Chennai,700,197,99,129
+P0061,Keyboard,Chennai,487,416,44,74
+P0062,Laptop,Bengaluru,819,692,93,123
+P0063,Mobile,Hyderabad,264,239,56,86
+P0064,Keyboard,Bengaluru,458,606,53,83
+P0065,Smart Watch,Mumbai,111,613,36,66
+P0066,Mobile,Mumbai,141,639,53,83
+P0067,Printer,Bengaluru,590,250,78,108
+P0068,Mobile,Bengaluru,236,494,81,111
+P0069,Tablet,Hyderabad,424,698,82,112
+P0070,Tablet,Chennai,138,344,41,71
+P0071,Monitor,Delhi,119,213,85,115
+P0072,Monitor,Bengaluru,428,217,38,68
+P0073,Laptop,Delhi,374,870,77,107
+P0074,Smart Watch,Mumbai,742,410,69,99
+P0075,Laptop,Mumbai,587,437,99,129
+P0076,Tablet,Delhi,212,594,51,81
+P0077,Monitor,Hyderabad,216,313,49,79
+P0078,Smart Watch,Bengaluru,115,841,95,125
+P0079,Printer,Chennai,927,591,62,92
+P0080,Mobile,Mumbai,931,447,57,87
+P0081,Keyboard,Chennai,164,754,24,54
+P0082,Smart Watch,Bengaluru,870,369,28,58
+P0083,Mobile,Bengaluru,820,505,60,90
+P0084,Printer,Mumbai,241,817,51,81
+P0085,Keyboard,Mumbai,533,211,30,60
+P0086,Tablet,Chennai,264,739,90,120
+P0087,Laptop,Delhi,90,800,52,82
+P0088,Keyboard,Chennai,698,232,21,51
+P0089,Mobile,Chennai,150,432,65,95
+P0090,Mobile,Delhi,780,134,75,105
+P0091,Printer,Bengaluru,878,342,31,61
+P0092,Tablet,Mumbai,955,589,100,130
+P0093,Monitor,Bengaluru,673,499,90,120
+P0094,Laptop,Hyderabad,286,212,37,67
+P0095,Keyboard,Bengaluru,885,392,61,91
+P0096,Smart Watch,Delhi,135,490,91,121
+P0097,Smart Watch,Bengaluru,103,46,29,59
+P0098,Printer,Bengaluru,614,475,20,50
+P0099,Printer,Chennai,956,829,35,65
+P0100,Smart Watch,Mumbai,700,39,78,108
+P0101,Printer,Chennai,343,730,86,116
+P0102,Smart Watch,Delhi,287,427,87,117
+P0103,Tablet,Chennai,163,433,57,87
+P0104,Mobile,Chennai,418,327,61,91
+P0105,Tablet,Chennai,149,843,68,98
+P0106,Mouse,Delhi,480,599,42,72
+P0107,Tablet,Chennai,447,377,50,80
+P0108,Smart Watch,Mumbai,223,42,49,79
+P0109,Smart Watch,Mumbai,425,846,80,110
+P0110,Laptop,Bengaluru,731,459,66,96
+P0111,Tablet,Hyderabad,819,665,50,80
+P0112,Laptop,Hyderabad,178,42,45,75
+P0113,Smart Watch,Delhi,70,851,81,111
+P0114,Smart Watch,Chennai,945,799,48,78
+P0115,Printer,Hyderabad,327,622,37,67
+P0116,Printer,Chennai,367,813,93,123
+P0117,Monitor,Mumbai,682,360,20,50
+P0118,Printer,Mumbai,904,717,61,91
+P0119,Keyboard,Mumbai,100,218,78,108
+P0120,Printer,Hyderabad,86,410,26,56
+P0121,Keyboard,Chennai,446,460,68,98
+P0122,Smart Watch,Delhi,143,754,28,58
+P0123,Mouse,Bengaluru,238,100,55,85
+P0124,Keyboard,Bengaluru,365,140,30,60
+P0125,Monitor,Delhi,463,709,78,108
+P0126,Laptop,Delhi,652,482,46,76
+P0127,Mouse,Hyderabad,506,52,50,80
+P0128,Smart Watch,Hyderabad,219,161,61,91
+P0129,Keyboard,Mumbai,887,824,87,117
+P0130,Keyboard,Chennai,663,696,84,114
+P0131,Smart Watch,Hyderabad,467,116,66,96
+P0132,Tablet,Delhi,768,272,37,67
+P0133,Mobile,Bengaluru,168,613,73,103
+P0134,Printer,Mumbai,103,720,82,112
+P0135,Mouse,Delhi,966,135,94,124
+P0136,Laptop,Bengaluru,78,387,79,109
+P0137,Mouse,Mumbai,805,103,85,115
+P0138,Smart Watch,Bengaluru,745,501,38,68
+P0139,Smart Watch,Delhi,57,342,70,100
+P0140,Printer,Mumbai,981,782,81,111
+P0141,Smart Watch,Chennai,108,445,37,67
+P0142,Laptop,Mumbai,736,613,33,63
+P0143,Keyboard,Delhi,555,512,41,71
+P0144,Printer,Hyderabad,110,338,93,123
+P0145,Laptop,Chennai,881,172,99,129
+P0146,Tablet,Delhi,995,432,30,60
+P0147,Mobile,Bengaluru,380,427,46,76
+P0148,Mobile,Chennai,550,771,66,96
+P0149,Laptop,Mumbai,968,269,76,106
+P0150,Keyboard,Hyderabad,525,208,62,92
+P0151,Laptop,Hyderabad,281,356,33,63
+P0152,Mouse,Mumbai,475,489,50,80
+P0153,Printer,Mumbai,69,669,69,99
+P0154,Mobile,Mumbai,399,311,21,51
+P0155,Tablet,Bengaluru,722,242,74,104
+P0156,Laptop,Hyderabad,502,424,24,54
+P0157,Printer,Bengaluru,383,309,32,62
+P0158,Smart Watch,Chennai,748,814,46,76
+P0159,Mouse,Mumbai,789,556,32,62
+P0160,Mouse,Delhi,99,658,95,125
+P0161,Smart Watch,Mumbai,915,513,20,50
+P0162,Laptop,Mumbai,902,536,86,116
+P0163,Monitor,Mumbai,107,824,45,75
+P0164,Mouse,Mumbai,641,798,85,115
+P0165,Monitor,Chennai,895,623,23,53
+P0166,Keyboard,Delhi,892,874,54,84
+P0167,Smart Watch,Mumbai,71,583,64,94
+P0168,Laptop,Bengaluru,968,612,25,55
+P0169,Smart Watch,Chennai,431,42,23,53
+P0170,Mouse,Chennai,992,201,98,128
+P0171,Mobile,Mumbai,708,759,26,56
+P0172,Mouse,Delhi,392,696,70,100
+P0173,Laptop,Bengaluru,114,895,23,53
+P0174,Printer,Delhi,188,51,92,122
+P0175,Mouse,Delhi,53,130,49,79
+P0176,Smart Watch,Mumbai,389,756,63,93
+P0177,Laptop,Delhi,684,263,46,76
+P0178,Mobile,Mumbai,308,527,61,91
+P0179,Mouse,Delhi,257,313,62,92
+P0180,Tablet,Chennai,604,662,69,99
+P0181,Monitor,Delhi,851,428,67,97
+P0182,Monitor,Hyderabad,906,235,60,90
+P0183,Printer,Mumbai,246,523,52,82
+P0184,Laptop,Chennai,794,340,93,123
+P0185,Tablet,Delhi,151,878,33,63
+P0186,Mouse,Hyderabad,631,459,39,69
+P0187,Monitor,Bengaluru,700,197,35,65
+P0188,Printer,Bengaluru,590,491,41,71
+P0189,Mobile,Delhi,592,514,48,78
+P0190,Mobile,Hyderabad,686,265,97,127
+P0191,Smart Watch,Hyderabad,407,757,66,96
+P0192,Laptop,Hyderabad,715,570,95,125
+P0193,Tablet,Delhi,779,603,96,126
+P0194,Tablet,Hyderabad,155,260,81,111
+P0195,Tablet,Bengaluru,677,627,88,118
+P0196,Printer,Delhi,759,702,22,52
+P0197,Mouse,Delhi,988,232,21,51
+P0198,Keyboard,Bengaluru,280,192,86,116
+P0199,Monitor,Delhi,431,631,40,70
+P0200,Printer,Delhi,927,343,51,81
+P0201,Tablet,Delhi,375,733,69,99
+P0202,Laptop,Delhi,161,631,36,66
+P0203,Mouse,Mumbai,878,711,48,78
+P0204,Monitor,Mumbai,583,43,55,85
+P0205,Smart Watch,Hyderabad,276,161,71,101
+P0206,Keyboard,Hyderabad,387,482,57,87
+P0207,Tablet,Hyderabad,561,306,89,119
+P0208,Laptop,Mumbai,315,317,68,98
+P0209,Mobile,Chennai,396,899,82,112
+P0210,Smart Watch,Delhi,348,105,27,57
+P0211,Printer,Mumbai,979,334,74,104
+P0212,Mobile,Hyderabad,155,672,26,56
+P0213,Tablet,Chennai,205,340,31,61
+P0214,Laptop,Chennai,907,176,92,122
+P0215,Monitor,Delhi,384,511,96,126
+P0216,Printer,Chennai,878,393,31,61
+P0217,Monitor,Delhi,184,194,44,74
+P0218,Laptop,Delhi,264,288,64,94
+P0219,Laptop,Mumbai,671,399,31,61
+P0220,Tablet,Bengaluru,765,799,89,119
+P0221,Tablet,Hyderabad,975,875,88,118
+P0222,Smart Watch,Delhi,485,799,49,79
+P0223,Mouse,Hyderabad,826,784,80,110
+P0224,Printer,Bengaluru,921,867,48,78
+P0225,Tablet,Bengaluru,534,333,45,75
+P0226,Tablet,Hyderabad,204,287,26,56
+P0227,Keyboard,Hyderabad,948,433,67,97
+P0228,Printer,Bengaluru,145,66,81,111
+P0229,Mouse,Hyderabad,772,583,60,90
+P0230,Laptop,Mumbai,75,751,96,126
+P0231,Monitor,Mumbai,193,201,87,117
+P0232,Smart Watch,Mumbai,310,436,57,87
+P0233,Laptop,Hyderabad,659,806,90,120
+P0234,Keyboard,Chennai,57,240,90,120
+P0235,Smart Watch,Delhi,977,343,86,116
+P0236,Printer,Mumbai,590,469,100,130
+P0237,Tablet,Bengaluru,921,757,78,108
+P0238,Monitor,Mumbai,791,843,98,128
+P0239,Printer,Delhi,459,364,75,105
+P0240,Keyboard,Delhi,255,888,39,69
+P0241,Tablet,Hyderabad,876,787,92,122
+P0242,Mobile,Bengaluru,901,478,27,57
+P0243,Monitor,Delhi,666,559,46,76
+P0244,Keyboard,Hyderabad,660,89,34,64
+P0245,Laptop,Bengaluru,575,773,21,51
+P0246,Smart Watch,Delhi,604,423,65,95
+P0247,Smart Watch,Hyderabad,656,621,51,81
+P0248,Monitor,Delhi,725,900,69,99
+P0249,Keyboard,Mumbai,55,328,48,78
+P0250,Monitor,Mumbai,740,442,43,73
+P0251,Keyboard,Mumbai,607,500,48,78
+P0252,Tablet,Hyderabad,173,60,40,70
+P0253,Tablet,Mumbai,714,620,38,68
+P0254,Mouse,Delhi,522,657,78,108
+P0255,Laptop,Mumbai,576,891,89,119
+P0256,Keyboard,Hyderabad,506,108,72,102
+P0257,Smart Watch,Delhi,562,830,47,77
+P0258,Tablet,Chennai,832,684,55,85
+P0259,Smart Watch,Chennai,384,445,66,96
+P0260,Tablet,Hyderabad,632,430,59,89
+P0261,Mouse,Chennai,609,151,34,64
+P0262,Mobile,Mumbai,550,163,91,121
+P0263,Mouse,Mumbai,840,83,47,77
+P0264,Keyboard,Hyderabad,588,218,75,105
+P0265,Keyboard,Bengaluru,244,414,89,119
+P0266,Mouse,Mumbai,466,370,56,86
+P0267,Printer,Hyderabad,863,555,22,52
+P0268,Printer,Chennai,496,860,62,92
+P0269,Keyboard,Chennai,588,157,81,111
+P0270,Monitor,Hyderabad,833,288,25,55
+P0271,Tablet,Bengaluru,876,53,81,111
+P0272,Laptop,Bengaluru,126,870,39,69
+P0273,Tablet,Delhi,166,611,35,65
+P0274,Tablet,Mumbai,284,657,62,92
+P0275,Tablet,Bengaluru,805,45,92,122
+P0276,Keyboard,Mumbai,980,624,43,73
+P0277,Mouse,Delhi,194,203,42,72
+P0278,Tablet,Chennai,178,858,26,56
+P0279,Mobile,Chennai,618,113,77,107
+P0280,Printer,Chennai,458,533,34,64
+P0281,Tablet,Bengaluru,459,408,31,61
+P0282,Mobile,Hyderabad,794,648,94,124
+P0283,Tablet,Mumbai,370,531,92,122
+P0284,Mouse,Chennai,529,777,24,54
+P0285,Monitor,Mumbai,917,356,21,51
+P0286,Smart Watch,Chennai,721,408,52,82
+P0287,Tablet,Hyderabad,701,174,48,78
+P0288,Mobile,Hyderabad,501,538,77,107
+P0289,Laptop,Mumbai,682,650,27,57
+P0290,Printer,Delhi,72,187,44,74
+P0291,Monitor,Bengaluru,892,564,34,64
+P0292,Printer,Delhi,925,822,95,125
+P0293,Monitor,Bengaluru,963,63,45,75
+P0294,Smart Watch,Mumbai,743,92,96,126
+P0295,Keyboard,Chennai,793,816,82,112
+P0296,Printer,Chennai,944,831,93,123
+P0297,Laptop,Bengaluru,737,812,97,127
+P0298,Keyboard,Hyderabad,345,336,83,113
+P0299,Mouse,Bengaluru,860,180,71,101
+P0300,Keyboard,Delhi,196,397,87,117
+P0301,Smart Watch,Delhi,55,68,31,61
+P0302,Mouse,Hyderabad,738,46,64,94
+P0303,Mobile,Hyderabad,619,370,60,90
+P0304,Mobile,Chennai,429,74,35,65
+P0305,Printer,Chennai,764,482,89,119
+P0306,Tablet,Chennai,337,487,29,59
+P0307,Mouse,Mumbai,554,775,58,88
+P0308,Keyboard,Bengaluru,296,260,84,114
+P0309,Mobile,Hyderabad,754,185,30,60
+P0310,Mouse,Mumbai,594,511,22,52
+P0311,Monitor,Bengaluru,239,752,47,77
+P0312,Smart Watch,Hyderabad,855,457,48,78
+P0313,Keyboard,Bengaluru,584,788,89,119
+P0314,Keyboard,Mumbai,862,891,35,65
+P0315,Laptop,Hyderabad,841,866,60,90
+P0316,Mouse,Chennai,913,544,74,104
+P0317,Tablet,Delhi,563,377,92,122
+P0318,Laptop,Chennai,856,729,50,80
+P0319,Smart Watch,Chennai,331,347,51,81
+P0320,Mouse,Delhi,656,336,90,120
+P0321,Laptop,Hyderabad,425,161,86,116
+P0322,Keyboard,Delhi,391,574,23,53
+P0323,Printer,Bengaluru,556,71,51,81
+P0324,Monitor,Delhi,986,791,73,103
+P0325,Tablet,Chennai,499,359,44,74
+P0326,Mouse,Delhi,83,572,64,94
+P0327,Tablet,Hyderabad,563,153,61,91
+P0328,Mouse,Mumbai,459,818,86,116
+P0329,Smart Watch,Chennai,922,563,77,107
+P0330,Laptop,Chennai,887,148,27,57
+P0331,Monitor,Bengaluru,663,384,52,82
+P0332,Printer,Bengaluru,466,75,49,79
+P0333,Tablet,Hyderabad,802,767,60,90
+P0334,Tablet,Delhi,128,404,46,76
+P0335,Laptop,Mumbai,398,307,79,109
+P0336,Smart Watch,Bengaluru,94,452,44,74
+P0337,Tablet,Hyderabad,248,273,49,79
+P0338,Smart Watch,Chennai,404,640,98,128
+P0339,Tablet,Bengaluru,314,219,53,83
+P0340,Monitor,Mumbai,148,121,57,87
+P0341,Mouse,Delhi,82,837,26,56
+P0342,Keyboard,Bengaluru,758,816,79,109
+P0343,Tablet,Delhi,561,726,82,112
+P0344,Smart Watch,Delhi,154,878,73,103
+P0345,Printer,Hyderabad,709,338,70,100
+P0346,Mouse,Mumbai,651,168,25,55
+P0347,Mobile,Bengaluru,790,137,23,53
+P0348,Laptop,Hyderabad,157,206,68,98
+P0349,Keyboard,Mumbai,663,202,62,92
+P0350,Smart Watch,Bengaluru,471,607,46,76
+P0351,Printer,Chennai,473,696,88,118
+P0352,Tablet,Delhi,310,131,76,106
+P0353,Keyboard,Bengaluru,512,114,37,67
+P0354,Keyboard,Delhi,134,159,73,103
+P0355,Mouse,Delhi,650,834,40,70
+P0356,Smart Watch,Chennai,896,874,82,112
+P0357,Printer,Delhi,803,360,42,72
+P0358,Mobile,Hyderabad,657,759,61,91
+P0359,Printer,Mumbai,380,206,85,115
+P0360,Mouse,Chennai,402,264,37,67
+P0361,Printer,Hyderabad,249,225,76,106
+P0362,Mobile,Bengaluru,971,81,38,68
+P0363,Monitor,Chennai,564,499,46,76
+P0364,Printer,Bengaluru,753,405,62,92
+P0365,Monitor,Delhi,514,821,80,110
+P0366,Printer,Mumbai,580,449,95,125
+P0367,Tablet,Chennai,530,555,75,105
+P0368,Smart Watch,Bengaluru,833,334,60,90
+P0369,Printer,Delhi,66,539,25,55
+P0370,Smart Watch,Hyderabad,733,347,90,120
+P0371,Monitor,Mumbai,328,885,96,126
+P0372,Mobile,Delhi,659,212,85,115
+P0373,Keyboard,Mumbai,113,191,67,97
+P0374,Mouse,Delhi,831,845,73,103
+P0375,Monitor,Mumbai,484,198,68,98
+P0376,Laptop,Bengaluru,174,444,37,67
+P0377,Smart Watch,Bengaluru,439,798,64,94
+P0378,Tablet,Bengaluru,103,524,97,127
+P0379,Mobile,Hyderabad,497,869,37,67
+P0380,Mouse,Chennai,667,464,29,59
+P0381,Printer,Chennai,927,785,22,52
+P0382,Smart Watch,Hyderabad,473,231,53,83
+P0383,Laptop,Delhi,629,695,86,116
+P0384,Laptop,Bengaluru,522,856,90,120
+P0385,Monitor,Bengaluru,572,669,83,113
+P0386,Tablet,Bengaluru,886,160,33,63
+P0387,Mobile,Delhi,444,826,21,51
+P0388,Keyboard,Hyderabad,718,701,25,55
+P0389,Mobile,Delhi,552,449,80,110
+P0390,Monitor,Hyderabad,55,352,41,71
+P0391,Printer,Hyderabad,540,203,100,130
+P0392,Keyboard,Bengaluru,528,839,54,84
+P0393,Tablet,Bengaluru,269,680,98,128
+P0394,Smart Watch,Delhi,64,385,36,66
+P0395,Monitor,Bengaluru,312,826,98,128
+P0396,Printer,Hyderabad,476,486,26,56
+P0397,Mobile,Mumbai,670,813,60,90
+P0398,Monitor,Hyderabad,299,797,25,55
+P0399,Smart Watch,Chennai,159,488,24,54
+P0400,Laptop,Hyderabad,973,287,60,90
+P0401,Printer,Hyderabad,119,636,68,98
+P0402,Keyboard,Hyderabad,333,143,37,67
+P0403,Keyboard,Delhi,620,277,63,93
+P0404,Mouse,Chennai,667,861,66,96
+P0405,Printer,Delhi,149,512,21,51
+P0406,Mouse,Delhi,947,158,33,63
+P0407,Laptop,Chennai,111,350,80,110
+P0408,Smart Watch,Hyderabad,657,299,20,50
+P0409,Mouse,Delhi,804,638,69,99
+P0410,Smart Watch,Chennai,664,821,35,65
+P0411,Mouse,Delhi,316,102,66,96
+P0412,Keyboard,Bengaluru,617,546,30,60
+P0413,Laptop,Hyderabad,901,179,81,111
+P0414,Keyboard,Mumbai,713,155,41,71
+P0415,Mouse,Chennai,755,383,71,101
+P0416,Monitor,Delhi,244,196,56,86
+P0417,Monitor,Chennai,663,202,71,101
+P0418,Smart Watch,Delhi,683,592,82,112
+P0419,Mouse,Delhi,773,305,25,55
+P0420,Laptop,Chennai,387,576,36,66
+P0421,Smart Watch,Mumbai,611,467,24,54
+P0422,Mobile,Bengaluru,421,294,73,103
+P0423,Tablet,Mumbai,220,874,87,117
+P0424,Mouse,Bengaluru,361,843,42,72
+P0425,Monitor,Hyderabad,739,405,60,90
+P0426,Laptop,Delhi,230,185,61,91
+P0427,Mouse,Mumbai,366,160,73,103
+P0428,Laptop,Delhi,865,298,46,76
+P0429,Mobile,Delhi,639,720,25,55
+P0430,Monitor,Delhi,657,769,66,96
+P0431,Laptop,Hyderabad,53,312,99,129
+P0432,Printer,Hyderabad,210,198,61,91
+P0433,Mobile,Mumbai,680,785,53,83
+P0434,Smart Watch,Delhi,824,365,57,87
+P0435,Monitor,Hyderabad,809,661,83,113
+P0436,Monitor,Mumbai,991,709,66,96
+P0437,Printer,Bengaluru,867,562,61,91
+P0438,Smart Watch,Chennai,960,330,44,74
+P0439,Mouse,Chennai,341,173,99,129
+P0440,Printer,Bengaluru,863,153,95,125
+P0441,Smart Watch,Hyderabad,282,218,33,63
+P0442,Laptop,Hyderabad,300,578,21,51
+P0443,Smart Watch,Bengaluru,171,566,57,87
+P0444,Keyboard,Bengaluru,102,184,55,85
+P0445,Printer,Chennai,498,189,77,107
+P0446,Mouse,Bengaluru,154,171,85,115
+P0447,Keyboard,Chennai,868,30,90,120
+P0448,Laptop,Chennai,847,380,51,81
+P0449,Laptop,Chennai,172,433,67,97
+P0450,Printer,Bengaluru,500,181,53,83
+P0451,Printer,Mumbai,78,643,26,56
+P0452,Smart Watch,Mumbai,956,443,25,55
+P0453,Printer,Mumbai,85,813,93,123
+P0454,Keyboard,Hyderabad,956,370,76,106
+P0455,Mobile,Chennai,811,49,76,106
+P0456,Mouse,Mumbai,603,212,42,72
+P0457,Keyboard,Mumbai,462,309,48,78
+P0458,Keyboard,Chennai,804,95,47,77
+P0459,Keyboard,Bengaluru,664,645,43,73
+P0460,Printer,Hyderabad,596,742,56,86
+P0461,Tablet,Mumbai,646,370,50,80
+P0462,Tablet,Chennai,107,614,82,112
+P0463,Laptop,Delhi,606,574,56,86
+P0464,Monitor,Chennai,979,609,52,82
+P0465,Keyboard,Delhi,207,718,78,108
+P0466,Printer,Mumbai,462,303,89,119
+P0467,Laptop,Bengaluru,250,852,71,101
+P0468,Mouse,Bengaluru,287,814,60,90
+P0469,Printer,Delhi,828,820,98,128
+P0470,Keyboard,Chennai,375,110,65,95
+P0471,Mouse,Bengaluru,96,365,37,67
+P0472,Monitor,Bengaluru,178,614,66,96
+P0473,Tablet,Bengaluru,332,704,67,97
+P0474,Printer,Bengaluru,460,592,81,111
+P0475,Keyboard,Chennai,809,295,34,64
+P0476,Keyboard,Hyderabad,256,495,72,102
+P0477,Tablet,Mumbai,366,66,60,90
+P0478,Tablet,Bengaluru,750,51,79,109
+P0479,Laptop,Hyderabad,854,234,65,95
+P0480,Tablet,Mumbai,971,44,55,85
+P0481,Keyboard,Delhi,681,763,49,79
+P0482,Keyboard,Delhi,632,418,68,98
+P0483,Laptop,Hyderabad,572,142,27,57
+P0484,Monitor,Bengaluru,623,321,39,69
+P0485,Laptop,Delhi,152,849,35,65
+P0486,Printer,Hyderabad,379,427,49,79
+P0487,Monitor,Bengaluru,129,460,45,75
+P0488,Printer,Delhi,283,461,92,122
+P0489,Mouse,Hyderabad,719,391,30,60
+P0490,Laptop,Delhi,710,477,45,75
+P0491,Laptop,Chennai,386,565,31,61
+P0492,Mouse,Chennai,836,746,57,87
+P0493,Monitor,Delhi,945,414,60,90
+P0494,Keyboard,Bengaluru,207,170,44,74
+P0495,Monitor,Mumbai,629,42,37,67
+P0496,Mouse,Chennai,732,882,74,104
+P0497,Monitor,Hyderabad,308,297,66,96
+P0498,Laptop,Hyderabad,694,581,60,90
+P0499,Mouse,Chennai,277,367,69,99
+P0500,Tablet,Mumbai,979,827,63,93
