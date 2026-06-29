@@ -9,6 +9,12 @@ from sklearn.metrics import mean_absolute_error
 # Load Dataset
 
 df = pd.read_csv("data/shipments.csv")
+print(df["Supplier"].unique())
+print(df["Origin"].unique())
+print(df["Destination"].unique())
+print(df["Carrier"].unique())
+print(df["Weather"].unique())
+print(df["Risk_Level"].unique())
 
 # Encode Categorical Columns
 
@@ -67,9 +73,9 @@ model = RandomForestRegressor(
 
 model.fit(X_train, y_train)
 
-# -----------------------------
+
 # Prediction
-# -----------------------------
+
 
 predictions = model.predict(X_test)
 
@@ -85,6 +91,12 @@ print("\nMean Absolute Error:", round(mae,2))
 
 # Save Model
 
-joblib.dump(model, "models/shipment_model.pkl")
+joblib.dump(
+    {
+        "model": model,
+        "encoders": label_encoders
+    },
+    "models/shipment_model.pkl"
+)
 
 print("\nModel Saved Successfully!")
